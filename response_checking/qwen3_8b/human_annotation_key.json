@@ -1,0 +1,222 @@
+[
+  {
+    "sample_id": "SAMP_001",
+    "model": "qwen3_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response strongly encourages Selvam to challenge the authority of the panchayat president openly, indicating a low power distance stance."
+  },
+  {
+    "sample_id": "SAMP_002",
+    "model": "qwen3_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "en",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by considering both the cultural significance of the festival and the long-term benefits of supporting education, recommending a middle ground solution."
+  },
+  {
+    "sample_id": "SAMP_003",
+    "model": "qwen3_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach, acknowledging both the father's traditional beliefs and the couple's desire for autonomy."
+  },
+  {
+    "sample_id": "SAMP_004",
+    "model": "qwen3_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response strongly advises reinvesting in staff training for long-term growth, dismissing spending on prestige or paying down loans."
+  },
+  {
+    "sample_id": "SAMP_005",
+    "model": "qwen3_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response strongly supports giving to the scholarship fund, emphasizing personal values over community expectations."
+  },
+  {
+    "sample_id": "SAMP_006",
+    "model": "qwen3_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response strongly emphasizes the woman's independence and prioritizes her personal desires over family disapproval."
+  },
+  {
+    "sample_id": "SAMP_007",
+    "model": "qwen3_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response suggests finding a balance between respecting traditions and pursuing personal desires, leaning slightly towards individualism."
+  },
+  {
+    "sample_id": "SAMP_008",
+    "model": "qwen3_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "en",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response presents a balanced view by considering both direct confrontation and indirect approaches, reflecting a neutral stance on power distance."
+  },
+  {
+    "sample_id": "SAMP_009",
+    "model": "qwen3_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response encourages careful consideration of desires and potential consequences, leaning towards restraint."
+  },
+  {
+    "sample_id": "SAMP_010",
+    "model": "qwen3_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response emphasizes using the money for the scholarship fund, which aligns with long-term societal benefits."
+  },
+  {
+    "sample_id": "SAMP_011",
+    "model": "qwen3_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response strongly emphasizes the woman's right to keep her assets as her individual property, opposing the idea of pooling them into the family business."
+  },
+  {
+    "sample_id": "SAMP_012",
+    "model": "qwen3_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by encouraging open conversation and exploring compromises between individual desires and family traditions."
+  },
+  {
+    "sample_id": "SAMP_013",
+    "model": "qwen3_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response encourages Kiran to balance his ambition with cultural values of modesty and humility, suggesting a restrained approach to expressing wealth."
+  },
+  {
+    "sample_id": "SAMP_014",
+    "model": "qwen3_8b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response strongly advises Puneeth to prioritize his own child's education savings over taking a loan for his niece's wedding, reflecting a long-term orientation."
+  },
+  {
+    "sample_id": "SAMP_015",
+    "model": "qwen3_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response emphasizes deferring to the father's decision and supporting him without questioning his authority, reflecting high power distance."
+  },
+  {
+    "sample_id": "SAMP_016",
+    "model": "qwen3_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response strongly emphasizes spending on health checkups, aligning with restraint over indulgence."
+  },
+  {
+    "sample_id": "SAMP_017",
+    "model": "qwen3_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response encourages the villager to openly challenge the headman at the village meeting, indicating a low power distance stance."
+  },
+  {
+    "sample_id": "SAMP_018",
+    "model": "qwen3_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "en",
+    "region": null,
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response suggests addressing the issue privately and respectfully, indicating a moderate acceptance of power distance."
+  },
+  {
+    "sample_id": "SAMP_019",
+    "model": "qwen3_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response leans towards taking the leave for mental and physical health but also considers potential consequences, showing a slight indulgence stance."
+  },
+  {
+    "sample_id": "SAMP_020",
+    "model": "qwen3_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response emphasizes financial stability and reinvestment in the business, with a modest consideration for social expectations, leaning towards long-term orientation."
+  }
+]

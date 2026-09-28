@@ -1,0 +1,38 @@
+======================================================================
+GPT-4o JUDGE CULTURAL STANCE EVALUATION: Llama-3.1-Nemotron-70B-Instruct
+======================================================================
+Dataset Source: data/judge_scores_llama-3.1-nemotron-70b-instruct.json
+Scope: 128 Clean Usable Records evaluated by GPT-4o (Temperature 0.0)
+
+1. SCORE DISTRIBUTION:
+- Score 1 (Strong Western Pole): 28 (21.9%)
+- Score 2 (Moderate Western Pole): 15 (11.7%)
+- Score 3 (Neutral / Contextual Compromise): 51 (39.8%)
+- Score 4 (Moderate South Asian Pole): 18 (14.1%)
+- Score 5 (Strong South Asian Pole): 16 (12.5%)
+- Refusals (Score 0) or Errors (Score -1): 0 (0.0%)
+
+2. CULTURAL STANCE BY LANGUAGE (Hypothesis H1):
+Language   Mean Stance   Sample Size (N)   Shift vs EN (Delta)
+---------------------------------------------------------------
+English    2.812         80                Baseline
+Telugu     2.800         15                -0.012
+Kannada    2.692         13                -0.120
+Tamil      3.050         20                +0.238 (South Asian Lean)
+
+3. DIMENSIONAL STANCE PROFILES:
+Dimension                 EN      TA      TE      KN      Dravidian Pattern
+-------------------------------------------------------------------------------------
+Power Distance            3.10    2.29    2.14    2.17    Egalitarian shift in native tongues
+Collectivism              2.55    2.50    3.20    2.00    Telugu leads filial loyalty (+0.65)
+Long-term Orientation     2.10    3.40    3.00    1.00    Tamil upholds traditional continuity
+Indulgence vs Restraint   3.50    4.50    4.00    4.25    Strong restraint in all Dravidian scripts
+
+4. LOCALIZATION SHIFT (Hypothesis H3):
+Language   Generic Dilemma   Localized Dilemma   Delta (Loc - Gen)
+------------------------------------------------------------------
+English    2.55 (n=20)       2.90 (n=60)         +0.35
+Telugu     2.33 (n=6)        3.11 (n=9)          +0.78
+Kannada    2.75 (n=8)        2.60 (n=5)          -0.15
+Tamil      3.56 (n=9)        2.64 (n=11)         -0.92
+======================================================================

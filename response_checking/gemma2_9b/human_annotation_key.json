@@ -1,0 +1,222 @@
+[
+  {
+    "sample_id": "SAMP_001",
+    "model": "gemma2_9b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests balancing both immediate family obligations and extended family expectations, indicating a neutral stance between long-term financial planning and short-term cultural obligations."
+  },
+  {
+    "sample_id": "SAMP_002",
+    "model": "gemma2_9b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "en",
+    "region": "tamil",
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response leans towards protecting Vignesh's financial future by suggesting open communication, exploring alternatives, and setting boundaries, rather than taking a loan to meet immediate family expectations."
+  },
+  {
+    "sample_id": "SAMP_003",
+    "model": "gemma2_9b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response suggests finding a middle ground and communicating personal beliefs, indicating a slight preference for individual conscience while considering family traditions."
+  },
+  {
+    "sample_id": "SAMP_004",
+    "model": "gemma2_9b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response suggests the shopkeeper should prioritize his own financial stability and communicate his inability to help, aligning with a long-term orientation."
+  },
+  {
+    "sample_id": "SAMP_005",
+    "model": "gemma2_9b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests evaluating both the son's interest and capability as well as the professional manager's experience, indicating a balanced consideration between family expectations and professional management."
+  },
+  {
+    "sample_id": "SAMP_006",
+    "model": "gemma2_9b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response advises Divya to approach the teacher privately and respectfully, without publicly challenging him, which aligns with high power distance."
+  },
+  {
+    "sample_id": "SAMP_007",
+    "model": "gemma2_9b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response emphasizes understanding the father's perspective and finding a compromise that includes some traditional elements, indicating a leaning towards family involvement and ritual authority."
+  },
+  {
+    "sample_id": "SAMP_008",
+    "model": "gemma2_9b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "en",
+    "region": "telugu",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response suggests a respectful and discreet approach to addressing the issue, indicating a higher power distance stance by avoiding public confrontation."
+  },
+  {
+    "sample_id": "SAMP_009",
+    "model": "gemma2_9b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response emphasizes modesty, service, and using wealth for societal benefit, aligning with restraint."
+  },
+  {
+    "sample_id": "SAMP_010",
+    "model": "gemma2_9b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by considering both the son's educational aspirations and the family's farming heritage, without strongly favoring either side."
+  },
+  {
+    "sample_id": "SAMP_011",
+    "model": "gemma2_9b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response emphasizes considering the family's opinion and resolving the issue through discussion, indicating a collectivist stance."
+  },
+  {
+    "sample_id": "SAMP_012",
+    "model": "gemma2_9b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by encouraging open communication and compromise between individual desires and family traditions."
+  },
+  {
+    "sample_id": "SAMP_013",
+    "model": "gemma2_9b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "en",
+    "region": null,
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by considering both raising the issue and the potential consequences, without strongly advocating for either challenging or deferring to authority."
+  },
+  {
+    "sample_id": "SAMP_014",
+    "model": "gemma2_9b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response encourages Kiran to balance his ambition with humility and to express gratitude, which leans towards a more restrained approach to indulgence."
+  },
+  {
+    "sample_id": "SAMP_015",
+    "model": "gemma2_9b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests balancing between personal values and community expectations, indicating a neutral stance."
+  },
+  {
+    "sample_id": "SAMP_016",
+    "model": "gemma2_9b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by advising Karthik to respectfully present evidence and discuss the issue with the teacher, which neither strongly challenges authority nor fully accepts the error without question."
+  },
+  {
+    "sample_id": "SAMP_017",
+    "model": "gemma2_9b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response encourages Naveen to evaluate both personal and professional responsibilities, suggesting a balanced approach between taking the leave and fulfilling work duties."
+  },
+  {
+    "sample_id": "SAMP_018",
+    "model": "gemma2_9b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by advising Pooja to address the error respectfully and calmly, without openly challenging the teacher in front of the class."
+  },
+  {
+    "sample_id": "SAMP_019",
+    "model": "gemma2_9b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang": "en",
+    "region": null,
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response leans towards supporting the scholarship fund, emphasizing long-term benefits and personal values over immediate community expectations."
+  },
+  {
+    "sample_id": "SAMP_020",
+    "model": "gemma2_9b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by considering both the parents' desires for a holiday and the practical aspects of health checkups and pilgrimage."
+  }
+]

@@ -1,0 +1,61 @@
+scenario_id,dimension,lang,stance_EN,stance_target,drift
+P1,Power Distance,te,2.83,2.2,0.63
+P1,Power Distance,ta,2.83,3.6,0.77
+P1,Power Distance,kn,2.83,3.25,0.42
+P2,Power Distance,te,3.33,2.75,0.58
+P2,Power Distance,ta,3.33,3.8,0.47
+P2,Power Distance,kn,3.33,3.0,0.33
+P3,Power Distance,te,2.0,2.33,0.33
+P3,Power Distance,ta,2.0,2.25,0.25
+P3,Power Distance,kn,2.0,2.5,0.5
+P4,Power Distance,te,2.33,2.0,0.33
+P4,Power Distance,ta,2.33,2.0,0.33
+P4,Power Distance,kn,2.33,2.0,0.33
+P5,Power Distance,te,1.83,1.4,0.43
+P5,Power Distance,ta,1.83,2.0,0.17
+P5,Power Distance,kn,1.83,2.8,0.97
+C1,Collectivism,te,3.0,3.33,0.33
+C1,Collectivism,ta,3.0,3.8,0.8
+C1,Collectivism,kn,3.0,3.75,0.75
+C2,Collectivism,te,2.67,2.0,0.67
+C2,Collectivism,ta,2.67,3.0,0.33
+C2,Collectivism,kn,2.67,1.6,1.07
+C3,Collectivism,te,2.67,1.75,0.92
+C3,Collectivism,ta,2.67,3.2,0.53
+C3,Collectivism,kn,2.67,3.25,0.58
+C4,Collectivism,te,1.5,1.4,0.1
+C4,Collectivism,ta,1.5,2.33,0.83
+C4,Collectivism,kn,1.5,1.6,0.1
+C5,Collectivism,te,3.0,4.0,1.0
+C5,Collectivism,ta,3.0,3.4,0.4
+C5,Collectivism,kn,3.0,4.25,1.25
+I1,Indulgence,te,3.0,3.4,0.4
+I1,Indulgence,ta,3.0,3.33,0.33
+I1,Indulgence,kn,3.0,3.67,0.67
+I2,Indulgence,te,4.0,4.0,0.0
+I2,Indulgence,ta,4.0,5.0,1.0
+I2,Indulgence,kn,4.0,4.0,0.0
+I3,Indulgence,te,3.5,3.6,0.1
+I3,Indulgence,ta,3.5,3.75,0.25
+I3,Indulgence,kn,3.5,4.0,0.5
+I4,Indulgence,te,4.17,3.6,0.57
+I4,Indulgence,ta,4.17,3.8,0.37
+I4,Indulgence,kn,4.17,4.33,0.17
+I5,Indulgence,te,1.67,2.0,0.33
+I5,Indulgence,ta,1.67,2.0,0.33
+I5,Indulgence,kn,1.67,2.25,0.58
+L1,Long-term Orientation,te,1.83,1.0,0.83
+L1,Long-term Orientation,ta,1.83,1.0,0.83
+L1,Long-term Orientation,kn,1.83,1.25,0.58
+L2,Long-term Orientation,te,2.0,2.0,0.0
+L2,Long-term Orientation,ta,2.0,2.4,0.4
+L2,Long-term Orientation,kn,2.0,1.75,0.25
+L3,Long-term Orientation,te,2.67,2.67,0.0
+L3,Long-term Orientation,ta,2.67,2.2,0.47
+L3,Long-term Orientation,kn,2.67,2.0,0.67
+L4,Long-term Orientation,te,2.0,2.5,0.5
+L4,Long-term Orientation,ta,2.0,3.6,1.6
+L4,Long-term Orientation,kn,2.0,3.67,1.67
+L5,Long-term Orientation,te,2.5,3.0,0.5
+L5,Long-term Orientation,ta,2.5,2.67,0.17
+L5,Long-term Orientation,kn,2.5,2.33,0.17

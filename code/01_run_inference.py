@@ -106,7 +106,7 @@ ap.add_argument("--limit", type=int, default=None,
                       "small-GPU-time sanity check before the full run.")
 ap.add_argument("--models", type=str, default=None,
                  help="Comma-separated model 'name' values (see PAPER_MODELS) to "
-                      "restrict this run to, e.g. --models qwen25_7b")
+                      "restrict this run to, e.g. --models qwen3_8b")
 args = ap.parse_args()
 
 # ── paths ──────────────────────────────────────────────────────────────────────
@@ -118,11 +118,16 @@ HF_TOKEN = os.environ.get("HF_TOKEN", "")
 
 # ── 5 models, same as reference repo's local run ───────────────────────────────
 PAPER_MODELS = [
-    {"id": "meta-llama/Llama-3.1-8B-Instruct",  "name": "llama31_8b",     "gated": True,  "eager": False, "no_cache": False},
-    {"id": "mistralai/Mistral-7B-Instruct-v0.3", "name": "mistral_7b",     "gated": False, "eager": False, "no_cache": False},
-    {"id": "Qwen/Qwen2.5-7B-Instruct",           "name": "qwen25_7b",      "gated": False, "eager": False, "no_cache": False},
-    {"id": "google/gemma-2-9b-it",               "name": "gemma2_9b",      "gated": True,  "eager": False, "no_cache": False},
-    {"id": "CohereForAI/aya-expanse-8b",         "name": "aya_expanse_8b", "gated": False, "eager": False, "no_cache": False},
+    # Swapped 2026-09-26: Mistral-7B, Qwen2.5-7B, Aya-Expanse-8B (no/weak Telugu-Tamil-Kannada
+    # support) replaced by Gemma-3-12B, Qwen3-8B, Sarvam-M. chat_kwargs turns off the
+    # "thinking" mode of Qwen3 / Sarvam-M so <think> text does not eat the token budget.
+    {"id": "meta-llama/Llama-3.1-8B-Instruct",  "name": "llama31_8b",  "gated": True,  "eager": False, "no_cache": False},
+    {"id": "google/gemma-2-9b-it",               "name": "gemma2_9b",   "gated": True,  "eager": False, "no_cache": False},
+    {"id": "google/gemma-3-12b-it",              "name": "gemma3_12b",  "gated": True,  "eager": False, "no_cache": False},
+    {"id": "Qwen/Qwen3-8B",                      "name": "qwen3_8b",    "gated": False, "eager": False, "no_cache": False,
+     "chat_kwargs": {"enable_thinking": False}},
+    {"id": "sarvamai/sarvam-m",                  "name": "sarvam_m",    "gated": False, "eager": False, "no_cache": False,
+     "chat_kwargs": {"enable_thinking": False}},
 ]
 if args.models:
     wanted = set(x.strip() for x in args.models.split(","))
@@ -130,7 +135,7 @@ if args.models:
 
 # ── token budget config — PLACEHOLDERS, see module docstring point 1 ──────────
 # TOKENS_BY_LANG = {"en": 600, "te": 1500, "ta": 1800, "kn": 1500}  # <-- update from calibration
-TOKENS_BY_LANG = {"en": 500, "te": 2950, "ta": 2750, "kn": 2300} 
+TOKENS_BY_LANG = {"en": 1500, "te": 2950, "ta": 2750, "kn": 2300} 
 MAX_RETRIES      = 3
 RETRY_MULTIPLIER = 1.5
 MAX_TOKENS_CAP   = 4096
@@ -340,6 +345,8 @@ if args.limit:
     log(f"--limit applied: running {TOTAL_PROMPTS} prompts/model", "WARN")
 
 # ── core generation ────────────────────────────────────────────────────────────
+CHAT_KWARGS = {}   # set per model in the main loop
+
 def _generate_once(model, tokenizer, user_text, max_new_tokens, no_cache=False):
     import torch
     messages = [
@@ -348,7 +355,7 @@ def _generate_once(model, tokenizer, user_text, max_new_tokens, no_cache=False):
     ]
     try:
         text = tokenizer.apply_chat_template(
-            messages, tokenize=False, add_generation_prompt=True
+            messages, tokenize=False, add_generation_prompt=True, **CHAT_KWARGS
         )
     except Exception:
         text = f"### Instruction:\n{user_text}\n\n### Response:"
@@ -517,6 +524,7 @@ for model_idx, model_cfg in enumerate(models_to_run, 1):
     model_results      = []
     consecutive_errors = 0
     no_cache            = model_cfg.get("no_cache", False)
+    CHAT_KWARGS         = model_cfg.get("chat_kwargs", {})
 
     stats = defaultdict(lambda: {"complete": 0, "truncated": 0, "error": 0,
                                   "total_toks": 0, "total_time": 0.0, "attempts_sum": 0})

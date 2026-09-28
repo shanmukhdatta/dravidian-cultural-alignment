@@ -1,0 +1,65 @@
+================================================================================
+DEEP AUDIT & QUALITY ASSURANCE REPORT: GEMMA-3-12B-IT
+Location: response_checking/gemma3_12b/audit_summary.txt
+Dataset : results/checkpoints/checkpoint_gemma3_12b.json
+Model   : google/gemma-3-12b-it (12.1B, 4-bit NF4)
+Cluster : NVIDIA H100 NVL (NIT Jalandhar, Job 33157.master)
+Prompts : 200/200 total prompts (20 scenarios x 10 conditions)
+================================================================================
+
+1. EXECUTIVE SUMMARY & VERIFICATION
+--------------------------------------------------------------------------------
+- Total Experiment Prompts : 200 / 200 (100% Complete)
+- All 20 Scenarios Present : YES (P1-P5, C1-C5, L1-L5, I1-I5)
+- Usable Clean for Judge   : 198 / 200 (99.0%) [Benchmark Leader!]
+- Filtered Anomalies       : 2 / 200 (1.0%) [Safely Isolated]
+- Empty Responses          : 0 (Flawless)
+- Degeneration Loops       : 0 (Flawless)
+- Truncations / Budget Cap : 0 (Flawless)
+- Script Purity (English)  : 100.0% (80/80) - Flawless (Ratio = 1.000)
+- Script Purity (Tamil)    : 100.0% (40/40) - Flawless (Ratio = 0.996)
+- Script Purity (Telugu)   : 100.0% (40/40) - Flawless (Ratio = 0.995)
+- Script Purity (Kannada)  : 95.0% (38/40) - Massive improvement over Gemma-2
+
+2. DIMENSION x LANGUAGE CROSS-TABULATION MATRIX (Clean Usable / Total)
+--------------------------------------------------------------------------------
+Dimension                 EN (80)         TA (40)         TE (40)         KN (40)         Total Usable
+Power Distance (P1-P5)    20/20 (100%)    10/10 (100%)    10/10 (100%)    10/10 (100%)    50/50 (100.0%)
+Collectivism (C1-C5)      20/20 (100%)    10/10 (100%)    10/10 (100%)     8/10 (80.0%)   48/50 (96.0%)
+Long-term Orient (L1-L5)  20/20 (100%)    10/10 (100%)    10/10 (100%)    10/10 (100%)    50/50 (100.0%)
+Indulgence (I1-I5)        20/20 (100%)    10/10 (100%)    10/10 (100%)    10/10 (100%)    50/50 (100.0%)
+TOTAL                     80/80 (100%)    40/40 (100%)    40/40 (100%)    38/40 (95.0%)  198/200 (99.0%)
+
+3. TOKEN LENGTH & GPU INFERENCE LATENCY ON NVIDIA H100
+--------------------------------------------------------------------------------
+Language    Mean Tokens    Max Tokens    Mean Characters    Avg Latency (s)
+English     1,154.2        1,465         5,630.8 chars      63.4 s
+Tamil       610.3          788           2,407.4 chars      32.8 s
+Telugu      607.5          837           1,835.7 chars      32.7 s
+Kannada     582.0          775           1,840.9 chars      31.2 s
+
+Key Insight:
+- In English, Gemma-3 generates detailed, expansive responses (~1,154 tokens, 5.6k chars).
+- In Dravidian languages, Gemma-3 generates focused, well-bounded advice (~600 tokens).
+- Zero responses came anywhere close to the budget caps (max token used was 837).
+
+4. CATALOG OF ALL ANOMALOUS RECORDS (ONLY 2 IN TOTAL)
+--------------------------------------------------------------------------------
+1. [#080] C1 localized KN: Script Ratio 0.69% (1,460 English characters).
+   Model defaulted to English bullet points when discussing marriage customs.
+2. [#100] C5 localized KN: Script Ratio 11.62% (988 English characters, 4 Telugu glyphs).
+   Model transitioned to English business terminology when discussing startup investments.
+
+5. 3-WAY MODEL ARCHITECTURE COMPARISON
+--------------------------------------------------------------------------------
+Metric                    Gemma-2-9B      Llama-3.1-8B    Gemma-3-12B
+Total Clean Usable        177 (88.5%)     174 (87.0%)     198 (99.0%) [Winner]
+Truncated / Looping       1               26              0 [Winner]
+Telugu Usability          34/40 (85.0%)   28/40 (70.0%)   40/40 (100.0%) [Winner]
+Tamil Usability           40/40 (100.0%)  29/40 (72.5%)   40/40 (100.0%) [Winner]
+Kannada Usability         25/40 (62.5%)   37/40 (92.5%)   38/40 (95.0%) [Winner]
+Language Collapse Cases   14              0               2
+
+================================================================================
+END OF REPORT
+================================================================================

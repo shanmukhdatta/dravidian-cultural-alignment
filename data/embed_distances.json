@@ -1,0 +1,5702 @@
+[
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7666,
+    "drift": 0.2334
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7779,
+    "drift": 0.2221
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7824,
+    "drift": 0.2176
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7903,
+    "drift": 0.2097
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7218,
+    "drift": 0.2782
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7345,
+    "drift": 0.2655
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7616,
+    "drift": 0.2384
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7532,
+    "drift": 0.2468
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7205,
+    "drift": 0.2795
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7651,
+    "drift": 0.2349
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6984,
+    "drift": 0.3016
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6989,
+    "drift": 0.3011
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6714,
+    "drift": 0.3286
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7679,
+    "drift": 0.2321
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6953,
+    "drift": 0.3047
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7678,
+    "drift": 0.2322
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6321,
+    "drift": 0.3679
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7698,
+    "drift": 0.2302
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7696,
+    "drift": 0.2304
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7544,
+    "drift": 0.2456
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7933,
+    "drift": 0.2067
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7775,
+    "drift": 0.2225
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7832,
+    "drift": 0.2168
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6318,
+    "drift": 0.3682
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7742,
+    "drift": 0.2258
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7077,
+    "drift": 0.2923
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6647,
+    "drift": 0.3353
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6982,
+    "drift": 0.3018
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6941,
+    "drift": 0.3059
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7185,
+    "drift": 0.2815
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6971,
+    "drift": 0.3029
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6657,
+    "drift": 0.3343
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7332,
+    "drift": 0.2668
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7053,
+    "drift": 0.2947
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7144,
+    "drift": 0.2856
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7271,
+    "drift": 0.2729
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6894,
+    "drift": 0.3106
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6867,
+    "drift": 0.3133
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7124,
+    "drift": 0.2876
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7533,
+    "drift": 0.2467
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.766,
+    "drift": 0.234
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7496,
+    "drift": 0.2504
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6927,
+    "drift": 0.3073
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7375,
+    "drift": 0.2625
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7718,
+    "drift": 0.2282
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6876,
+    "drift": 0.3124
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6787,
+    "drift": 0.3213
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7083,
+    "drift": 0.2917
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6929,
+    "drift": 0.3071
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6902,
+    "drift": 0.3098
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7098,
+    "drift": 0.2902
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.703,
+    "drift": 0.297
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6898,
+    "drift": 0.3102
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7384,
+    "drift": 0.2616
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7208,
+    "drift": 0.2792
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7296,
+    "drift": 0.2704
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7245,
+    "drift": 0.2755
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.8002,
+    "drift": 0.1998
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7699,
+    "drift": 0.2301
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7706,
+    "drift": 0.2294
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.8026,
+    "drift": 0.1974
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7396,
+    "drift": 0.2604
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7676,
+    "drift": 0.2324
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7474,
+    "drift": 0.2526
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7089,
+    "drift": 0.2911
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6563,
+    "drift": 0.3437
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5986,
+    "drift": 0.4014
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6047,
+    "drift": 0.3953
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7875,
+    "drift": 0.2125
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7469,
+    "drift": 0.2531
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7493,
+    "drift": 0.2507
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7457,
+    "drift": 0.2543
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7568,
+    "drift": 0.2432
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.732,
+    "drift": 0.268
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7767,
+    "drift": 0.2233
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.8113,
+    "drift": 0.1887
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7538,
+    "drift": 0.2462
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7103,
+    "drift": 0.2897
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7029,
+    "drift": 0.2971
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7219,
+    "drift": 0.2781
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7327,
+    "drift": 0.2673
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6927,
+    "drift": 0.3073
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7094,
+    "drift": 0.2906
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7082,
+    "drift": 0.2918
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7783,
+    "drift": 0.2217
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7753,
+    "drift": 0.2247
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.726,
+    "drift": 0.274
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7307,
+    "drift": 0.2693
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7854,
+    "drift": 0.2146
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6868,
+    "drift": 0.3132
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7301,
+    "drift": 0.2699
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6988,
+    "drift": 0.3012
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6931,
+    "drift": 0.3069
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.668,
+    "drift": 0.332
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7336,
+    "drift": 0.2664
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7638,
+    "drift": 0.2362
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7539,
+    "drift": 0.2461
+  },
+  {
+    "model": "gemma2_9b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7057,
+    "drift": 0.2943
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7239,
+    "drift": 0.2761
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7219,
+    "drift": 0.2781
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7277,
+    "drift": 0.2723
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7273,
+    "drift": 0.2727
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6419,
+    "drift": 0.3581
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7203,
+    "drift": 0.2797
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6576,
+    "drift": 0.3424
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6622,
+    "drift": 0.3378
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6623,
+    "drift": 0.3377
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6742,
+    "drift": 0.3258
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6902,
+    "drift": 0.3098
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7604,
+    "drift": 0.2396
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6404,
+    "drift": 0.3596
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7348,
+    "drift": 0.2652
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6619,
+    "drift": 0.3381
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.711,
+    "drift": 0.289
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7434,
+    "drift": 0.2566
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7828,
+    "drift": 0.2172
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7247,
+    "drift": 0.2753
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7856,
+    "drift": 0.2144
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7834,
+    "drift": 0.2166
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7458,
+    "drift": 0.2542
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6158,
+    "drift": 0.3842
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6649,
+    "drift": 0.3351
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.638,
+    "drift": 0.362
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7032,
+    "drift": 0.2968
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5464,
+    "drift": 0.4536
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6865,
+    "drift": 0.3135
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7435,
+    "drift": 0.2565
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6314,
+    "drift": 0.3686
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7813,
+    "drift": 0.2187
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6858,
+    "drift": 0.3142
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7151,
+    "drift": 0.2849
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7007,
+    "drift": 0.2993
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6567,
+    "drift": 0.3433
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.5759,
+    "drift": 0.4241
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6017,
+    "drift": 0.3983
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5635,
+    "drift": 0.4365
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5721,
+    "drift": 0.4279
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6236,
+    "drift": 0.3764
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.615,
+    "drift": 0.385
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6351,
+    "drift": 0.3649
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6918,
+    "drift": 0.3082
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6666,
+    "drift": 0.3334
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6561,
+    "drift": 0.3439
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6148,
+    "drift": 0.3852
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6567,
+    "drift": 0.3433
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6503,
+    "drift": 0.3497
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.617,
+    "drift": 0.383
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6689,
+    "drift": 0.3311
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6345,
+    "drift": 0.3655
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7211,
+    "drift": 0.2789
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7357,
+    "drift": 0.2643
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6841,
+    "drift": 0.3159
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7066,
+    "drift": 0.2934
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6201,
+    "drift": 0.3799
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6803,
+    "drift": 0.3197
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6993,
+    "drift": 0.3007
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7095,
+    "drift": 0.2905
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6368,
+    "drift": 0.3632
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7871,
+    "drift": 0.2129
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7328,
+    "drift": 0.2672
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7616,
+    "drift": 0.2384
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6315,
+    "drift": 0.3685
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7639,
+    "drift": 0.2361
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6879,
+    "drift": 0.3121
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6593,
+    "drift": 0.3407
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6947,
+    "drift": 0.3053
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6602,
+    "drift": 0.3398
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7041,
+    "drift": 0.2959
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6094,
+    "drift": 0.3906
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.734,
+    "drift": 0.266
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6447,
+    "drift": 0.3553
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6569,
+    "drift": 0.3431
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5244,
+    "drift": 0.4756
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7106,
+    "drift": 0.2894
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6741,
+    "drift": 0.3259
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6364,
+    "drift": 0.3636
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6967,
+    "drift": 0.3033
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6851,
+    "drift": 0.3149
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6542,
+    "drift": 0.3458
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.718,
+    "drift": 0.282
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6668,
+    "drift": 0.3332
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6159,
+    "drift": 0.3841
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6323,
+    "drift": 0.3677
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5993,
+    "drift": 0.4007
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6097,
+    "drift": 0.3903
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6126,
+    "drift": 0.3874
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6224,
+    "drift": 0.3776
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6858,
+    "drift": 0.3142
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6299,
+    "drift": 0.3701
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6645,
+    "drift": 0.3355
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6065,
+    "drift": 0.3935
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6687,
+    "drift": 0.3313
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7179,
+    "drift": 0.2821
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.679,
+    "drift": 0.321
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7426,
+    "drift": 0.2574
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7022,
+    "drift": 0.2978
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7195,
+    "drift": 0.2805
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7092,
+    "drift": 0.2908
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.642,
+    "drift": 0.358
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6568,
+    "drift": 0.3432
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6671,
+    "drift": 0.3329
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6423,
+    "drift": 0.3577
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6444,
+    "drift": 0.3556
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6622,
+    "drift": 0.3378
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.687,
+    "drift": 0.313
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6226,
+    "drift": 0.3774
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6672,
+    "drift": 0.3328
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5893,
+    "drift": 0.4107
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7282,
+    "drift": 0.2718
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7276,
+    "drift": 0.2724
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7244,
+    "drift": 0.2756
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6763,
+    "drift": 0.3237
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6721,
+    "drift": 0.3279
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6886,
+    "drift": 0.3114
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7199,
+    "drift": 0.2801
+  },
+  {
+    "model": "gemma3_12b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6785,
+    "drift": 0.3215
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.722,
+    "drift": 0.278
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6892,
+    "drift": 0.3108
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6792,
+    "drift": 0.3208
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6929,
+    "drift": 0.3071
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6834,
+    "drift": 0.3166
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7799,
+    "drift": 0.2201
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7039,
+    "drift": 0.2961
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5698,
+    "drift": 0.4302
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7687,
+    "drift": 0.2313
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5775,
+    "drift": 0.4225
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7299,
+    "drift": 0.2701
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7882,
+    "drift": 0.2118
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7524,
+    "drift": 0.2476
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.666,
+    "drift": 0.334
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.572,
+    "drift": 0.428
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.606,
+    "drift": 0.394
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6887,
+    "drift": 0.3113
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.633,
+    "drift": 0.367
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.728,
+    "drift": 0.272
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6866,
+    "drift": 0.3134
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5577,
+    "drift": 0.4423
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7105,
+    "drift": 0.2895
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6991,
+    "drift": 0.3009
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6816,
+    "drift": 0.3184
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7351,
+    "drift": 0.2649
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7042,
+    "drift": 0.2958
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5519,
+    "drift": 0.4481
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5983,
+    "drift": 0.4017
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6174,
+    "drift": 0.3826
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7164,
+    "drift": 0.2836
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6776,
+    "drift": 0.3224
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6449,
+    "drift": 0.3551
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7699,
+    "drift": 0.2301
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6501,
+    "drift": 0.3499
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7142,
+    "drift": 0.2858
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.623,
+    "drift": 0.377
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6704,
+    "drift": 0.3296
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6872,
+    "drift": 0.3128
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6852,
+    "drift": 0.3148
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6993,
+    "drift": 0.3007
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5879,
+    "drift": 0.4121
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6452,
+    "drift": 0.3548
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6961,
+    "drift": 0.3039
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6731,
+    "drift": 0.3269
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7314,
+    "drift": 0.2686
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7102,
+    "drift": 0.2898
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6554,
+    "drift": 0.3446
+  },
+  {
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6807,
+    "drift": 0.3193
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6875,
+    "drift": 0.3125
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7105,
+    "drift": 0.2895
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5826,
+    "drift": 0.4174
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7417,
+    "drift": 0.2583
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6539,
+    "drift": 0.3461
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6808,
+    "drift": 0.3192
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.4934,
+    "drift": 0.5066
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5054,
+    "drift": 0.4946
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7378,
+    "drift": 0.2622
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.665,
+    "drift": 0.335
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5716,
+    "drift": 0.4284
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7449,
+    "drift": 0.2551
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7486,
+    "drift": 0.2514
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7872,
+    "drift": 0.2128
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7629,
+    "drift": 0.2371
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6048,
+    "drift": 0.3952
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.5112,
+    "drift": 0.4888
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7085,
+    "drift": 0.2915
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6401,
+    "drift": 0.3599
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7076,
+    "drift": 0.2924
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6819,
+    "drift": 0.3181
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.5884,
+    "drift": 0.4116
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.581,
+    "drift": 0.419
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7337,
+    "drift": 0.2663
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6239,
+    "drift": 0.3761
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6369,
+    "drift": 0.3631
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.4742,
+    "drift": 0.5258
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.5166,
+    "drift": 0.4834
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.444,
+    "drift": 0.556
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.516,
+    "drift": 0.484
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.4869,
+    "drift": 0.5131
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.688,
+    "drift": 0.312
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7055,
+    "drift": 0.2945
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7291,
+    "drift": 0.2709
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6309,
+    "drift": 0.3691
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5038,
+    "drift": 0.4962
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6099,
+    "drift": 0.3901
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7371,
+    "drift": 0.2629
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.5505,
+    "drift": 0.4495
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5391,
+    "drift": 0.4609
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5099,
+    "drift": 0.4901
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6393,
+    "drift": 0.3607
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.5479,
+    "drift": 0.4521
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6099,
+    "drift": 0.3901
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6049,
+    "drift": 0.3951
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6424,
+    "drift": 0.3576
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6401,
+    "drift": 0.3599
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6195,
+    "drift": 0.3805
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.685,
+    "drift": 0.315
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6182,
+    "drift": 0.3818
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6132,
+    "drift": 0.3868
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.536,
+    "drift": 0.464
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.5814,
+    "drift": 0.4186
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5602,
+    "drift": 0.4398
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5779,
+    "drift": 0.4221
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.621,
+    "drift": 0.379
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.5723,
+    "drift": 0.4277
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6999,
+    "drift": 0.3001
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6522,
+    "drift": 0.3478
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5806,
+    "drift": 0.4194
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7026,
+    "drift": 0.2974
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.772,
+    "drift": 0.228
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6953,
+    "drift": 0.3047
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7008,
+    "drift": 0.2992
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7483,
+    "drift": 0.2517
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7513,
+    "drift": 0.2487
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7028,
+    "drift": 0.2972
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6535,
+    "drift": 0.3465
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6063,
+    "drift": 0.3937
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.5949,
+    "drift": 0.4051
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.3092,
+    "drift": 0.6908
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6082,
+    "drift": 0.3918
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7003,
+    "drift": 0.2997
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6498,
+    "drift": 0.3502
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6377,
+    "drift": 0.3623
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7299,
+    "drift": 0.2701
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7172,
+    "drift": 0.2828
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7052,
+    "drift": 0.2948
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6717,
+    "drift": 0.3283
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6728,
+    "drift": 0.3272
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6626,
+    "drift": 0.3374
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.671,
+    "drift": 0.329
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6082,
+    "drift": 0.3918
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6391,
+    "drift": 0.3609
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6318,
+    "drift": 0.3682
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5828,
+    "drift": 0.4172
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5646,
+    "drift": 0.4354
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6691,
+    "drift": 0.3309
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5533,
+    "drift": 0.4467
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6476,
+    "drift": 0.3524
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6492,
+    "drift": 0.3508
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5505,
+    "drift": 0.4495
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.636,
+    "drift": 0.364
+  },
+  {
+    "model": "llama31_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.5768,
+    "drift": 0.4232
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6971,
+    "drift": 0.3029
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7169,
+    "drift": 0.2831
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6761,
+    "drift": 0.3239
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6138,
+    "drift": 0.3862
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7117,
+    "drift": 0.2883
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7134,
+    "drift": 0.2866
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6456,
+    "drift": 0.3544
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.4817,
+    "drift": 0.5183
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.587,
+    "drift": 0.413
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7106,
+    "drift": 0.2894
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6542,
+    "drift": 0.3458
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.4827,
+    "drift": 0.5173
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7417,
+    "drift": 0.2583
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6333,
+    "drift": 0.3667
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6812,
+    "drift": 0.3188
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5845,
+    "drift": 0.4155
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6758,
+    "drift": 0.3242
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.646,
+    "drift": 0.354
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.667,
+    "drift": 0.333
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6214,
+    "drift": 0.3786
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6443,
+    "drift": 0.3557
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6745,
+    "drift": 0.3255
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7043,
+    "drift": 0.2957
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7213,
+    "drift": 0.2787
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6595,
+    "drift": 0.3405
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.647,
+    "drift": 0.353
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6546,
+    "drift": 0.3454
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5773,
+    "drift": 0.4227
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.5903,
+    "drift": 0.4097
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5015,
+    "drift": 0.4985
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6558,
+    "drift": 0.3442
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6908,
+    "drift": 0.3092
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5513,
+    "drift": 0.4487
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6083,
+    "drift": 0.3917
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6064,
+    "drift": 0.3936
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7124,
+    "drift": 0.2876
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6667,
+    "drift": 0.3333
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6966,
+    "drift": 0.3034
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6501,
+    "drift": 0.3499
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6771,
+    "drift": 0.3229
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.738,
+    "drift": 0.262
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7441,
+    "drift": 0.2559
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7064,
+    "drift": 0.2936
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7096,
+    "drift": 0.2904
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6498,
+    "drift": 0.3502
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7101,
+    "drift": 0.2899
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.709,
+    "drift": 0.291
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6844,
+    "drift": 0.3156
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6749,
+    "drift": 0.3251
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6633,
+    "drift": 0.3367
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6702,
+    "drift": 0.3298
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6776,
+    "drift": 0.3224
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.718,
+    "drift": 0.282
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7241,
+    "drift": 0.2759
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6829,
+    "drift": 0.3171
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6934,
+    "drift": 0.3066
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6216,
+    "drift": 0.3784
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6409,
+    "drift": 0.3591
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6794,
+    "drift": 0.3206
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7116,
+    "drift": 0.2884
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6708,
+    "drift": 0.3292
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7378,
+    "drift": 0.2622
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6215,
+    "drift": 0.3785
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6618,
+    "drift": 0.3382
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.682,
+    "drift": 0.318
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6303,
+    "drift": 0.3697
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5885,
+    "drift": 0.4115
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6907,
+    "drift": 0.3093
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6565,
+    "drift": 0.3435
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.638,
+    "drift": 0.362
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6337,
+    "drift": 0.3663
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6763,
+    "drift": 0.3237
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.5927,
+    "drift": 0.4073
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7216,
+    "drift": 0.2784
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6313,
+    "drift": 0.3687
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.5119,
+    "drift": 0.4881
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5736,
+    "drift": 0.4264
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6713,
+    "drift": 0.3287
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7146,
+    "drift": 0.2854
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7177,
+    "drift": 0.2823
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.4951,
+    "drift": 0.5049
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6055,
+    "drift": 0.3945
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6973,
+    "drift": 0.3027
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6557,
+    "drift": 0.3443
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6938,
+    "drift": 0.3062
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.5621,
+    "drift": 0.4379
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5979,
+    "drift": 0.4021
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6648,
+    "drift": 0.3352
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6472,
+    "drift": 0.3528
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7485,
+    "drift": 0.2515
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.5882,
+    "drift": 0.4118
+  },
+  {
+    "model": "qwen3_8b",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.689,
+    "drift": 0.311
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7624,
+    "drift": 0.2376
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.715,
+    "drift": 0.285
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7305,
+    "drift": 0.2695
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7363,
+    "drift": 0.2637
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7535,
+    "drift": 0.2465
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7537,
+    "drift": 0.2463
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6891,
+    "drift": 0.3109
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6775,
+    "drift": 0.3225
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7095,
+    "drift": 0.2905
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.6621,
+    "drift": 0.3379
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7202,
+    "drift": 0.2798
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7135,
+    "drift": 0.2865
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7499,
+    "drift": 0.2501
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.8153,
+    "drift": 0.1847
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6942,
+    "drift": 0.3058
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7874,
+    "drift": 0.2126
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7233,
+    "drift": 0.2767
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6815,
+    "drift": 0.3185
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.8025,
+    "drift": 0.1975
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.633,
+    "drift": 0.367
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7961,
+    "drift": 0.2039
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7462,
+    "drift": 0.2538
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.8286,
+    "drift": 0.1714
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7246,
+    "drift": 0.2754
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7161,
+    "drift": 0.2839
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7679,
+    "drift": 0.2321
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.649,
+    "drift": 0.351
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7419,
+    "drift": 0.2581
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.652,
+    "drift": 0.348
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "C5",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6718,
+    "drift": 0.3282
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7766,
+    "drift": 0.2234
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.8253,
+    "drift": 0.1747
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.742,
+    "drift": 0.258
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.8009,
+    "drift": 0.1991
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7344,
+    "drift": 0.2656
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7146,
+    "drift": 0.2854
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6438,
+    "drift": 0.3562
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7109,
+    "drift": 0.2891
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6594,
+    "drift": 0.3406
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7086,
+    "drift": 0.2914
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6855,
+    "drift": 0.3145
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6848,
+    "drift": 0.3152
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7733,
+    "drift": 0.2267
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.706,
+    "drift": 0.294
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7777,
+    "drift": 0.2223
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7401,
+    "drift": 0.2599
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7549,
+    "drift": 0.2451
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7489,
+    "drift": 0.2511
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7366,
+    "drift": 0.2634
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.669,
+    "drift": 0.331
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7765,
+    "drift": 0.2235
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7535,
+    "drift": 0.2465
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6965,
+    "drift": 0.3035
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7506,
+    "drift": 0.2494
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7887,
+    "drift": 0.2113
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.8114,
+    "drift": 0.1886
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7537,
+    "drift": 0.2463
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7673,
+    "drift": 0.2327
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7344,
+    "drift": 0.2656
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7966,
+    "drift": 0.2034
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7766,
+    "drift": 0.2234
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.8116,
+    "drift": 0.1884
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7988,
+    "drift": 0.2012
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7855,
+    "drift": 0.2145
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6773,
+    "drift": 0.3227
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7677,
+    "drift": 0.2323
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7221,
+    "drift": 0.2779
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.695,
+    "drift": 0.305
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.8094,
+    "drift": 0.1906
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.768,
+    "drift": 0.232
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7655,
+    "drift": 0.2345
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.755,
+    "drift": 0.245
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7745,
+    "drift": 0.2255
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7871,
+    "drift": 0.2129
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7695,
+    "drift": 0.2305
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.8149,
+    "drift": 0.1851
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7059,
+    "drift": 0.2941
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L3",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6975,
+    "drift": 0.3025
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7572,
+    "drift": 0.2428
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7516,
+    "drift": 0.2484
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7818,
+    "drift": 0.2182
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7778,
+    "drift": 0.2222
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7459,
+    "drift": 0.2541
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7838,
+    "drift": 0.2162
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7186,
+    "drift": 0.2814
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.5016,
+    "drift": 0.4984
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6715,
+    "drift": 0.3285
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7501,
+    "drift": 0.2499
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6207,
+    "drift": 0.3793
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7694,
+    "drift": 0.2306
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7342,
+    "drift": 0.2658
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7738,
+    "drift": 0.2262
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6252,
+    "drift": 0.3748
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7181,
+    "drift": 0.2819
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.606,
+    "drift": 0.394
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6854,
+    "drift": 0.3146
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.8027,
+    "drift": 0.1973
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7651,
+    "drift": 0.2349
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.8135,
+    "drift": 0.1865
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7034,
+    "drift": 0.2966
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7666,
+    "drift": 0.2334
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6828,
+    "drift": 0.3172
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.8036,
+    "drift": 0.1964
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.6702,
+    "drift": 0.3298
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7458,
+    "drift": 0.2542
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7183,
+    "drift": 0.2817
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7324,
+    "drift": 0.2676
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6388,
+    "drift": 0.3612
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.6466,
+    "drift": 0.3534
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.7263,
+    "drift": 0.2737
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.8025,
+    "drift": 0.1975
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7264,
+    "drift": 0.2736
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7258,
+    "drift": 0.2742
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.6099,
+    "drift": 0.3901
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→te",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7622,
+    "drift": 0.2378
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→te",
+    "anchor": "localized_en[telugu]",
+    "cosine_sim": 0.802,
+    "drift": 0.198
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→ta",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7499,
+    "drift": 0.2501
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→ta",
+    "anchor": "localized_en[tamil]",
+    "cosine_sim": 0.7582,
+    "drift": 0.2418
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang_pair": "en→kn",
+    "anchor": "generic_en",
+    "cosine_sim": 0.7642,
+    "drift": 0.2358
+  },
+  {
+    "model": "sarvam_m",
+    "scenario_id": "P5",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang_pair": "en→kn",
+    "anchor": "localized_en[kannada]",
+    "cosine_sim": 0.7653,
+    "drift": 0.2347
+  }
+]

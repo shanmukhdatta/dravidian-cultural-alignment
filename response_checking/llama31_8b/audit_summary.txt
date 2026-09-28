@@ -1,0 +1,90 @@
+================================================================================
+DEEP AUDIT & QUALITY ASSURANCE REPORT: LLAMA-3.1-8B-INSTRUCT
+Location: response_checking/llama31_8b/audit_summary.txt
+Dataset : results/checkpoints/checkpoint_llama31_8b.json
+Model   : meta-llama/Llama-3.1-8B-Instruct (8.03B, 4-bit NF4)
+Cluster : NVIDIA H100 NVL (NIT Jalandhar, Job 33157.master)
+Prompts : 200/200 total prompts (20 scenarios x 10 conditions)
+================================================================================
+
+1. EXECUTIVE SUMMARY & VERIFICATION
+--------------------------------------------------------------------------------
+- Total Experiment Prompts : 200 / 200 (100% Complete)
+- All 20 Scenarios Present : YES (P1-P5, C1-C5, L1-L5, I1-I5)
+- Usable Clean for Judge   : 174 / 200 (87.0%)
+- Filtered Anomalies       : 26 / 200 (13.0%) [Safely Isolated]
+- Empty Responses          : 0 (Flawless)
+- Script Purity (English)  : 100.0% (80/80) - Flawless (Ratio = 1.000)
+- Script Purity (Tamil)    : 100.0% (40/40) - Flawless (Ratio = 1.000, 0 English fallbacks)
+- Script Purity (Telugu)   : 100.0% (40/40) - Flawless (Ratio = 1.000, 0 English fallbacks)
+- Script Purity (Kannada)  : 100.0% (40/40) - Flawless (Ratio = 1.000, 0 English fallbacks)
+
+2. DIMENSION x LANGUAGE CROSS-TABULATION MATRIX (Clean Usable / Total)
+--------------------------------------------------------------------------------
+Dimension                 EN (80)         TA (40)         TE (40)         KN (40)         Total Usable
+Power Distance (P1-P5)    20/20 (100%)     8/10 (80.0%)    6/10 (60.0%)   10/10 (100%)    44/50 (88.0%)
+Collectivism (C1-C5)      20/20 (100%)     8/10 (80.0%)    5/10 (50.0%)    9/10 (90.0%)   42/50 (84.0%)
+Long-term Orient (L1-L5)  20/20 (100%)     7/10 (70.0%)    7/10 (70.0%)    8/10 (80.0%)   42/50 (84.0%)
+Indulgence (I1-I5)        20/20 (100%)     6/10 (60.0%)   10/10 (100%)    10/10 (100%)    46/50 (92.0%)
+TOTAL                     80/80 (100%)    29/40 (72.5%)   28/40 (70.0%)   37/40 (92.5%)  174/200 (87.0%)
+
+3. TOKEN FRAGMENTATION & GPU INFERENCE LATENCY ON NVIDIA H100
+--------------------------------------------------------------------------------
+Language    Mean Tokens    Max Tokens    Mean Characters    Chars/Token    Avg Latency (s)
+English     398.7          550           2,103.5 chars      5.28 c/tok     13.8 s
+Tamil       2,264.5        4,096         1,715.7 chars      0.76 c/tok     127.3 s (9.2x slower)
+Telugu      2,552.7        4,096         1,491.8 chars      0.58 c/tok     132.1 s (9.6x slower)
+Kannada     2,027.7        4,096         1,179.2 chars      0.58 c/tok     110.2 s (8.0x slower)
+
+Key Insight:
+Llama-3.1's tokenizer exhibits severe token fragmentation in Dravidian scripts:
+1 token represents only 0.58 characters in Telugu/Kannada. Generating a 250-word response
+required over 2,500 tokens, increasing latency to over 2 minutes per prompt on H100.
+
+4. COMPLETE CATALOG OF ALL 26 ANOMALOUS RECORDS (DEGENERATION LOOPS & TRUNCATION)
+--------------------------------------------------------------------------------
+[All 26 records entered runaway cyclic repetition loops and hit the 4,096 token limit.
+ None of them suffered from language collapse (0 English fallbacks).
+ All 26 are safely isolated and filtered from GPT-4o judging.]
+
+ 1. [#001] P1 | localized | TE : 4,096 tokens, attempts=2, loop detected
+ 2. [#002] P2 | generic   | TE : 4,096 tokens, attempts=2, loop detected
+ 3. [#003] P2 | localized | TE : 4,096 tokens, attempts=2, loop detected
+ 4. [#004] P2 | localized | TA : 4,096 tokens, attempts=2, loop detected
+ 5. [#005] P4 | generic   | TE : 4,096 tokens, attempts=2, loop detected
+ 6. [#006] P4 | localized | TE : 4,096 tokens, attempts=2, loop detected
+ 7. [#007] C1 | localized | TE : 4,096 tokens, attempts=2, loop detected
+ 8. [#008] C2 | generic   | TE : 4,096 tokens, attempts=2, loop detected
+ 9. [#009] C2 | localized | TA : 4,096 tokens, attempts=2, loop detected
+10. [#010] C2 | localized | KN : 4,096 tokens, attempts=3, loop detected
+11. [#011] C3 | generic   | TE : 4,096 tokens, attempts=2, loop detected
+12. [#012] C4 | localized | TE : 4,096 tokens, attempts=2, loop detected
+13. [#013] C4 | localized | TA : 4,096 tokens, attempts=2, loop detected
+14. [#014] C5 | localized | TE : 4,096 tokens, attempts=2, loop detected
+15. [#015] I2 | generic   | TA : 4,096 tokens, attempts=2, loop detected
+16. [#016] I2 | localized | TA : 4,096 tokens, attempts=2, loop detected
+17. [#017] I3 | localized | TA : 4,096 tokens, attempts=2, loop detected
+18. [#018] I5 | localized | TA : 4,096 tokens, attempts=2, loop detected
+19. [#019] L1 | generic   | TE : 4,096 tokens, attempts=2, loop detected
+20. [#020] L1 | localized | TE : 4,096 tokens, attempts=2, loop detected
+21. [#021] L1 | localized | TA : 4,096 tokens, attempts=2, loop detected
+22. [#022] L3 | localized | TE : 4,096 tokens, attempts=2, loop detected
+23. [#023] L3 | localized | TA : 4,096 tokens, attempts=2, loop detected
+24. [#024] L3 | localized | KN : 4,096 tokens, attempts=3, loop detected
+25. [#025] L4 | generic   | TA : 4,096 tokens, attempts=2, loop detected
+26. [#026] L5 | generic   | KN : 4,096 tokens, attempts=3, loop detected
+
+5. ARCHITECTURAL COMPARISON: LLAMA-3.1-8B VS. GEMMA-2-9B
+--------------------------------------------------------------------------------
+- Script Purity       : Llama is 100.0% pure script (vs Gemma's 85% TE, 62% KN).
+- Language Collapse   : Llama had 0 English fallbacks (vs Gemma's 14 English fallbacks).
+- Failure Mechanism   : Llama fails via Degeneration Loops (repeating phrases endlessly).
+                        Gemma fails via Script Confusion (Devanagari/Latin leakage).
+- Dravidian Inversion : Gemma's best Dravidian was Tamil (100%), worst was Kannada (62.5%).
+                        Llama's best Dravidian was Kannada (92.5%), worst was Telugu (70.0%).
+- Final Usable Pool   : Llama = 174 clean records (87.0%)
+                        Gemma = 177 clean records (88.5%)
+
+================================================================================
+END OF REPORT
+================================================================================

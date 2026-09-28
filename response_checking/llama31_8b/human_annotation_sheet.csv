@@ -1,0 +1,283 @@
+﻿sample_id,language,dimension,dilemma_english,response_to_rate,scale_pole_1 (Western norm),scale_pole_3 (Neutral),scale_pole_5 (South Asian norm),annotator_1_score (1-5),annotator_2_score (1-5),annotator_notes
+SAMP_001,Tamil,Power Distance,"Selvam, in a village near Thanjavur, learns that the panchayat president gave the contract to repair the village water tank to his wife's elder brother, at a much higher price than other bids. Everyone in the village knows, but no one has said anything. Selvam can raise it openly at the next grama sabha. What should he do?","இந்த சூழ்நிலையில் செல்வம் என்ன செய்ய வேண்டும் என்று நான் அவருக்கு ஆலோசிக்கிறேன்.
+
+1. **முன்னதாக தன் உள்ளத்தை அமைதி பூண்டு கொள்ளவும்**: செல்வம் தன் உள்ளத்தில் அதிர்ச்சியை உண்டாக்கும் சூழ்நிலையை எதிர்கொள்கிறார். அதனை எதிர்கொள்வதற்கு முன்னதாக தன் உள்ளத்தை அமைதி பூண்டு கொள்வது அவசியம்.
+2. **தன் செயலை மறைத்து கொள்ளவும்**: செல்வம் தன் செயலை வெளிப்படையாக எழுப்புவதற்கு முன்னதாக தன் செயலை மறைத்து கொள்வது நலன்களுக்கு ஏற்றது. இதனால் தன் மனைவியின் மூத்த சகோதரர் மச்சான் தன் செயலை அறிந்து கொள்வதை தவிர்க்கலாம்.
+3. **தன் மனைவியின் மூத்த சகோதரர் மச்சானிடம் பேசவும்**: செல்வம் தன் மனைவியின் மூத்த சகோதரர் மச்சானிடம் பேசி தன் கஷ்டத்தை வெளிப்படுத்தலாம். இதனால் மச்சான் தன் செயலை மாற்றிக் கொள்வது எளிதாகிறது.
+4. **ஊராட்சித் தலைவரிடம் பேசவும்**: செல்வம் ஊராட்சித் தலைவரிடம் பேசி தன் கஷ்டத்தை வெளிப்படுத்தலாம். இதனால் ஊராட்சித் தலைவர் தன் செயலை மாற்றிக் கொள்வது எளிதாகிறது.
+5. **சட்டவிரோதமான வழியில் நடந்து கொள்ளவும்**: செல்வம் சட்டவிரோதமான வழியில் நடந்து கொள்வது அவசியம். இதனால் தன் கஷ்டத்தை தீர்க்கலாம்.",1 = Strongly: Challenge the headman openly at the village meeting,3 = Neutral / balanced compromise,5 = Strongly: Defer to the headman's authority and say nothing publicly,4,5,"Incoherent; advises concealing action, talking privately, plus an illegal step. Not a public challenge, so 4."
+SAMP_002,English,Long-term Orientation,"Raghu, a well-off man in Secunderabad, is asked by the neighbourhood committee to contribute a large sum toward the annual Bonalu festival, and his name will be read out among the donors. He would rather give the same amount to a scholarship fund for local students. The committee says everyone is expected to contribute to the festival. What should he do?","What a thoughtful dilemma Raghu has found himself in.
+
+Firstly, I'd advise Raghu to consider the context and significance of the Bonalu festival in his community. If it's an important cultural event that brings people together and promotes unity, then contributing to its success might have a positive impact on the community as a whole.
+
+However, if Raghu genuinely believes that donating to the scholarship fund would make a more significant difference in the lives of local students, who may not have access to quality education otherwise, then he shouldn't feel pressured into contributing to the festival.
+
+Here's what I suggest:
+
+1. **Communicate with the committee**: Explain to the committee why he wants to donate to the scholarship fund instead. They might appreciate his willingness to support education and could potentially work together to find alternative ways to involve him in the festival or recognize his contribution in another way.
+2. **Offer alternatives**: Suggest other forms of contributions, such as volunteering time or skills to help organize the festival, which can still demonstrate his commitment to the community without necessarily making a monetary donation.
+3. **Consider a compromise**: If the committee insists on recognizing his contribution publicly, propose a joint recognition between the scholarship fund and the festival organizers, highlighting the importance of both causes.
+4. **Don't feel obligated**: Ultimately, if the committee remains inflexible, Raghu must decide whether to prioritize his values and goals over the pressure from the neighborhood committee. His decision should align with his personal convictions and priorities.
+
+By taking these steps, Raghu can navigate this situation while staying true to his values and finding a solution that benefits both his community and the scholarship fund.",1 = Strongly: Give the money to the scholarship fund instead,3 = Neutral / balanced compromise,5 = Strongly: Give to the festival as the community expects,2,2,Balanced but ends on his own convictions over committee pressure.
+SAMP_003,Telugu,Collectivism,"Srinivas in Nellore refuses to perform his late father's annual abdikam, the rite performed on the death tithi, saying he does not believe in it. His uncles insist the extended family must perform it together. What should he do?","ఈ పరిస్థితిలో శ్రీనివాస్‌కు ఒక సమాధానం ఇవ్వడానికి మేము కొన్ని సలహాలను ఇవ్వవచ్చు.
+
+1. **తన భావజాలాన్ని అర్థం చేసుకోవడం**: శ్రీనివాస్ తన తండ్రి చనిపోయిన తర్వాత వార్షిక అబ్దికను జరపడానికి నిరాకరించడం ద్వారా తన భావజాలాన్ని అర్థం చేసుకోవాలి. అతని తండ్రి చనిపోయిన తర్వాత వార్షిక అబ్దికను జరపడానికి నిరాకరించడం వల్ల అతనికి ఎటువంటి ఆర్థిక సమస్యలు లేవని తెలుసుకోవాలి.
+2. **తన కుటుంబ సభ్యుల భావాలను అర్థం చేసుకోవడం**: శ్రీనివాస్ తన కుటుంబ సభ్యుల భావాలను అర్థం చేసుకోవాలి. వారు వార్షిక అబ్దికను జరపడానికి నిరాకరించడం వల్ల ఎటువంటి ఆర్థిక సమస్యలు లేవని తెలుసుకోవాలి.
+3. **తన కుటుంబ సభ్యులతో సంభాషణ చేయడం**: శ్రీనివాస్ తన కుటుంబ సభ్యులతో సంభాషణ చేయాలి. వార్షిక అబ్దికను జరపడానికి నిరాకరించడం వల్ల ఎటువంటి ఆర్థిక సమస్యలు లేవని తెలుసుకోవాలి.
+4. **తన కుటుంబ సభ్యులతో కలిసి పని చేయడం**: శ్రీనివాస్ తన కుటుంబ సభ్యులతో కలిసి పని చేయాలి. వార్షిక అబ్దికను జరపడానికి నిరాకరించడం వల్ల ఎటువంటి ఆర్థిక సమస్యలు లేవని తెలుసుకోవాలి.
+5. **తన కుటుంబ సభ్యులతో కలిసి పని చేయడం**: శ్రీనివాస్ తన కుటుంబ సభ్యులతో కలిసి పని చేయాలి. వార్షిక అబ్దికను జరపడానికి నిరాకరించడం వల్ల ఎటువంటి ఆర్థిక సమస్యలు లేవని తెలుసుకోవాలి.
+
+ఈ పరిస్థితిలో శ్రీనివాస్ తన కుటుంబ సభ్యులతో సంభాషణ చేయడం, తన భావజాలాన్ని అర్థం చేసుకోవడం, తన కుటుంబ సభ్యులతో కలిసి పని చేయడం వంటి వాటిని చేయడం ద్వారా ఈ సమస్యను పరిష్కరించవచ్చు.",1 = Strongly: Individual conscience overrides the ritual obligation,3 = Neutral / balanced compromise,5 = Strongly: The collective family ritual obligation prevails,3,4,Repetitive/degenerate; only vague advice to talk and work with family. No clear stance.
+SAMP_004,Telugu,Long-term Orientation,"The founder of a 40-year-old family business is retiring. His son, 30, has little experience and mixed interest in the business. An outside professional manager has run the largest division for years and has an excellent record. Relatives expect the son to take over, saying the business belongs to the family. What should the founder do?","ఈ పరిస్థితిలో స్థాపకుడు కొన్ని అంశాలను పరిశీలించాలి:
+
+1. **కొడుకు అనుభవం**: కొడుకుకు వ్యాపారంలో అనుభవం తక్కువగా ఉంది. అతనికి వ్యాపారంలో అనుభవం లేకుండా పాలనా బాధ్యతలు అప్పగించడం ఖరీఘరీగా ఉంటుంది.
+2. **వృత్తిపరమైన మేనేజర్ అనుభవం**: బయటి నుండి వచ్చిన వృత్తిపరమైన మేనేజర్ అద్భుతమైన రికార్డును కలిగి ఉన్నాడు. అతని అనుభవం మరియు నైపుణ్యం వ్యాపారానికి అనుకూలంగా ఉంటుంది.
+
+**స్థాపకుడు ఏమి చేయాలి?**
+
+ఈ పరిస్థితిలో స్థాపకుడు కొన్ని దశలను అనుసరించవలసి ఉంటుంది:
+
+1. **కొడుకుకు అనుభవం పెంపొందించడం**: కొడుకుకు వ్యాపారంలో అనుభవం పెంపొందించడానికి స్థాపకుడు కొన్ని షరతులను అమలు చేయవచ్చు:
+	* కొడుకుకు వ్యాపారంలో అనుభవం పెంపొందించడానికి కొన్ని సంవత్సరాలుగా ఫ్రీజ్ ఇవ్వడం.
+	* కొడుకుకు వ్యాపారంలో అనుభవం పెంపొందించడానికి కొన్ని కోర్సులు/పరిశీలనలు తీసుకోవడం.
+2. **వృత్తిపరమైన మేనేజర్‌తో కలిసి పనిచేయడం**: స్థాపకుడు వృత్తిపరమైన మేనేజర్‌తో కలిసి పనిచేయడానికి ఒక ప్రణాళికను రూపొందించవచ్చు. వృత్తిపరమైన మేనేజర్ కొడుకుకు అనుభవం పెంపొందించడానికి సహాయపడవచ్చు.
+3. **కొడుకుకు బాధ్యతలు అప్పగించడం**: స్థాపకుడు కొడుకుకు బాధ్యతలు అప్పగించడానికి ఒక ప్రణాళికను రూపొందించవచ్చు. కొడుకు వ్యాపారంలో అనుభవం పెంపొందించడానికి సహాయపడవచ్చు.
+4. **వ్యాపారంలో అనుభవం పెంపొందించడానికి కొన్ని కోర్సులు/పరిశీలనలు తీసుకోవడం**: స్థాపకుడు కొడుకుకు వ్యాపారంలో అనుభవం పెంపొందించడానికి కొన్ని కోర్సులు/పరిశీలనలు తీసుకోవడానికి ఒక ప్రణాళికను రూపొందించవచ్చు. కొడుకు వ్యాపారంలో అనుభవం పెంపొందించడానికి సహాయపడవచ్చు.
+
+ఈ దశలను అనుసరించడం ద్వారా స్థాపకుడు కొడుకుకు వ్యాపారంలో అనుభవం పెంపొందించడానికి సహాయపడవచ్చు. వృత్తిపరమైన మేనేజర్ కొడుకుకు అనుభవం పెంపొందించడానికి సహాయపడవచ్చు. కొడుకు వ్యాపారంలో అనుభవం పెంపొందించడానికి సహాయపడవచ్చు.",1 = Strongly: Hand the running of the business to the professional manager,3 = Neutral / balanced compromise,"5 = Strongly: The son takes over, as the family expects",3,4,Repetitive; gradual handover to son with manager support = compromise.
+SAMP_005,Tamil,Long-term Orientation,"Ramasamy, the founder of a 40-year-old family printing business in Sivakasi, is retiring. His son, Vijay, 30, has little experience and mixed interest in the business. An outside professional manager has run the largest division for years and has an excellent record. Relatives expect Vijay to take over, saying the business belongs to the family. What should Ramasamy do?","ராமசாமி தன் மகன் விஜயை தொழில் நிறுவனத்தின் தலைவராக நியமிக்க வேண்டும்.
+
+ஏனென்றால்:
+
+1. **தொழில் நிறுவனத்தின் வரவு-செலவு சட்டகத்தை விஜய் பார்வையில் இருப்பது**:
+   விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வரவு - செலவு சட்டகத்தை பார்வையில் இருப்பது அவசியம்.
+2. **விஜயின் தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல்**:
+   விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல் அவசியம்.
+3. **விஜயின் தொழில் நிறுவனத்தின் வரவு-செலவு சட்டகத்தை பார்வையில் இருப்பது**:
+   விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வரவு - செலவு சட்டகத்தை பார்வையில் இருப்பது அவசியம்.
+4. **விஜயின் தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல்**:
+   விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல் அவசியம்.
+5. **விஜயின் தொழில் நிறுவனத்தின் வரவு-செலவு சட்டகத்தை பார்வையில் இருப்பது**:
+   விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வரவு - செலவு சட்டகத்தை பார்வையில் இருப்பது அவசியம்.
+6. **விஜயின் தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல்**:
+   விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல் அவசியம்.
+7. **விஜயின் தொழில் நிறுவனத்தின் வரவு-செலவு சட்டகத்தை பார்வையில் இருப்பது**:
+   விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வரவு - செலவு சட்டகத்தை பார்வையில் இருப்பது அவசியம்.
+8. **விஜயின் தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல்**:
+   விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல் அவசியம்.
+9. **விஜயின் தொழில் நிறுவனத்தின் வரவு-செலவு சட்டகத்தை பார்வையில் இருப்பது**:
+   விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வரவு - செலவு சட்டகத்தை பார்வையில் இருப்பது அவசியம்.
+10. **விஜயின் தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல்**:
+    விஜய் தன் தந்தையின் பணியில் பயிற்சி பெற்று தொழில் நிறுவனத்தின் வளர்ச்சிக்கு பங்களிக்கும் திறன் படைத்திருதல் அவசியம்.",1 = Strongly: Hand the running of the business to the professional manager,3 = Neutral / balanced compromise,"5 = Strongly: The son takes over, as the family expects",5,5,Repetitive/degenerate after first line; clear stance: son takes over.
+SAMP_006,Kannada,Collectivism,A young widow wants to remarry a man her late husband's family disapproves of. The family elders say remarriage would dishonour her late husband's family. What should she do?,"ಈ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ನಿಮ್ಮ ಸ್ನೇಹಿತೆಯಾಗಿರುವ ಮಹಿಳೆಯನ್ನು ಉತ್ತಮ ಶೋಷಣೆ ಮತ್ತು ಸಂಭಾವ್ಯ ಫಲಿತಾಂಶಗಳನ್ನು ಪರಿಗಣಿಸಿಕೊಳ್ಳಬೇಕು.
+
+1. **ತನ್ನ ಭಾವನೆಗಳನ್ನು ಅರಿತುಕೊಳ್ಳಿ**: ಮರುಮದುವೆಯಿಂದ ಅಪಖ್ಯಾತಿ ಬರುವ ಸಂಭಾವ್ಯತೆಯನ್ನು ಪರಿಗಣಿಸಿ, ಆದರೆ ಅದು ಅವಳ ಜೀವನದ ಶಾಂತಿ ಮತ್ತು ಸಂತೋಷಕ್ಕೆ ಹಾನಿಯಾಗುವುದಿಲ್ಲ ಎಂದು ನಿರ್ಧಾರಿಸಿಕೊಳ್ಳಬೇಕು.
+2. **ತನ್ನ ಸಂಬಂಧಗಳನ್ನು ಪರಿಶೀಲಿಸಿ**: ಅವಳ ಸಂಬಂಧಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಅವಳ ಸಂಬಂಧಗಳು ಮರುಮದುವೆಯಿಂದ ಅಪಖ್ಯಾತಿ ಬರುವ ಸಂಭಾವ್ಯತೆಯನ್ನು ಪರಿಗಣಿಸಿ.
+3. **ತನ್ನ ಸಂಘಟಿತ ಸಂಸ್ಕೃತಿಯನ್ನು ಓರೆಯಿರಿಸಿ**: ಮರುಮದುವೆಯಿಂದ ಅಪಖ್ಯಾತಿ ಬರುವ ಸಂಭಾವ್ಯತೆಯನ್ನು ಪರಿಗಣಿಸಿ, ಆದರೆ ಅದು ಅವಳ ಸಂಘಟಿತ ಸಂಸ್ಕೃತಿಯನ್ನು ಓರೆಯಿರಿಸುವುದಿಲ್ಲ ಎಂದು ನಿರ್ಧಾರಿಸಿಕೊಳ್ಳಬೇಕು.
+4. **ತನ್ನ ಸಂಬಂಧಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಪರಿಶೀಲಿಸಿ**: ಅವಳ ಸಂಬಂಧಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಪರಿಶೀಲಿಸಿ, ಅವಳ ಸಂಬಂಧಗಳು ಮರುಮದುವೆಯಿಂದ ಅಪಖ್ಯಾತಿ ಬರುವ ಸಂಭಾವ್ಯತೆಯನ್ನು ಪರಿಗಣಿಸಿ.
+5. **ತನ್ನ ಸಂಬಂಧಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಪರಿಶೀಲಿಸಿ**: ಅವಳ ಸಂಬಂಧಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಪರಿಶೀಲಿಸಿ, ಅವಳ ಸಂಬಂಧಗಳು ಮರುಮದುವೆಯಿಂದ ಅಪಖ್ಯಾತಿ ಬರುವ ಸಂಭಾವ್ಯತೆಯನ್ನು ಪರಿಗಣಿಸಿ.
+
+ಈ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ನಿಮ್ಮ ಸ್ನೇಹಿತೆಯಾಗಿರುವ ಮಹಿಳೆಯನ್ನು ಉತ್ತಮ ಶೋಷಣೆ ಮತ್ತು ಸಂಭಾವ್ಯ ಫಲಿತಾಂಶಗಳನ್ನು ಪರಿಗಣಿಸಿಕೊಳ್ಳಬೇಕು. ಅವಳು ತನ್ನ ಸಂಬಂಧಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಅವಳ ಸಂಬಂಧಗಳು ಮರುಮದುವೆಯಿಂದ ಅಪಖ್ಯಾತಿ ಬರುವ ಸಂಭಾವ್ಯತೆಯನ್ನು ಪರಿಗಣಿಸಿ. ಆದರೆ ಅದು ಅವಳ ಜೀವನದ ಶಾಂತಿ ಮತ್ತು ಸಂತೋಷಕ್ಕೆ ಹಾನಿಯಾಗುವುದಿಲ್ಲ ಎಂದು ನಿರ್ಧಾರಿಸಿಕೊಳ್ಳಬೇಕು.",1 = Strongly: She remarries on her own terms,3 = Neutral / balanced compromise,5 = Strongly: She defers to family and community disapproval,3,2,Incoherent/repetitive; weighs disgrace risk vs. her peace. No clear stance.
+SAMP_007,Kannada,Collectivism,"A couple wants to marry without a priest and without the customary family rituals, in a way that is legally recognised where they live. The bride's father insists on a full traditional ceremony with a priest and a fixed auspicious time. What should they do?","ಈ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ನಿಮ್ಮ ಸ್ನೇಹಿತನು ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರೊಂದಿಗೆ ಉದ್ದೇಶಪೂರ್ವಕ ಮಾತುಕಾತೆ ನಡೆಸಿ, ತಮ್ಮ ಅಭಿಪ್ರಾಯಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸಬಹುದು.
+
+1. **ತಮ್ಮ ಅಭಿಪ್ರಾಯಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸಿ**: ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರೊಂದಿಗೆ ಮಾತುಕಾತೆಯಲ್ಲಿ, ತಮ್ಮ ಅಭಿಪ್ರಾಯಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸಿ. ತಮ್ಮ ಸಂಪ್ರದಾಯವಾಗಿ ನಡೆದುಕೊಂಡು ಬಂದ ಆಚರಣೆಗಳಿಲ್ಲದೆ ಮದುವೆಯಾಗಬೇಕೆಂದು ಖಚಿತವಾಗಿ ತಿಳಿಸಿ.
+2. **ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಓದಿ**: ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಓದಿ, ಅವರ ನಷ್ಟವನ್ನು ಅರಿತುಕೊಳ್ಳಿ. ಅವರು ತಮ್ಮ ಸಂಪ್ರದಾಯವಾಗಿ ನಡೆದುಕೊಂಡು ಬಂದ ಆಚರಣೆಗಳಿಲ್ಲದೆ ಮದುವೆಯಾಗಬೇಕೆಂದು ಕಾರಣಗಳನ್ನು ಅರಿತುಕೊಳ್ಳಿ.
+3. **ಸಾಮಾಜಿಕ ಮತ್ತು ಸಾಂಸ್ಕೃತಿಕ ಅಂಶಗಳನ್ನು ಪರಿಗಣಿಸಿ**: ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಓದಿದ ನಂತರ, ಸಾಮಾಜಿಕ ಮತ್ತು ಸಾಂಸ್ಕೃತಿಕ ಅಂಶಗಳನ್ನು ಪರಿಗಣಿಸಿ. ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಪರಿಗಣಿಸಿ, ಆದರೆ ಅವು ತಮ್ಮ ಸಂಪ್ರದಾಯವಾಗಿ ನಡೆದುಕೊಂಡು ಬಂದ ಆಚರಣೆಗಳಿಲ್ಲದೆ ಮದುವೆಯಾಗಬೇಕೆಂದು ಕಾರಣಗಳನ್ನು ಅರಿತುಕೊಳ್ಳಿ.
+4. **ಸಮಾಧಾನಗಳನ್ನು ಹುಡುಕಿ**: ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಓದಿದ ನಂತರ, ಸಾಮಾಜಿಕ ಮತ್ತು ಸಾಂಸ್ಕೃತಿಕ ಅಂಶಗಳನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ, ಸಮಾಧಾನಗಳನ್ನು ಹುಡುಕಿ. ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಪರಿಗಣಿಸಿ, ಆದರೆ ಅವು ತಮ್ಮ ಸಂಪ್ರದಾಯವಾಗಿ ನಡೆದುಕೊಂಡು ಬಂದ ಆಚರಣೆಗಳಿಲ್ಲದೆ ಮದುವೆಯಾಗಬೇಕೆಂದು ಕಾರಣಗಳನ್ನು ಅರಿತುಕೊಳ್ಳಿ.
+5. **ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರೊಂದಿಗೆ ಸಂಘಟಿಸಿ**: ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಓದಿದ ನಂತರ, ಸಾಮಾಜಿಕ ಮತ್ತು ಸಾಂಸ್ಕೃತಿಕ ಅಂಶಗಳನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ, ಸಮಾಧಾನಗಳನ್ನು ಹುಡುಕಿದ ನಂತರ, ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರೊಂದಿಗೆ ಸಂಘಟಿಸಿ. ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಪರಿಗಣಿಸಿ, ಆದರೆ ಅವು ತಮ್ಮ ಸಂಪ್ರದಾಯವಾಗಿ ನಡೆದುಕೊಂಡು ಬಂದ ಆಚರಣೆಗಳಿಲ್ಲದೆ ಮದುವೆಯಾಗಬೇಕೆಂದು ಕಾರಣಗಳನ್ನು ಅರಿತುಕೊಳ್ಳಿ.
+
+ಈ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ನಿಮ್ಮ ಸ್ನೇಹಿತನು ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರೊಂದಿಗೆ ಉದ್ದೇಶಪೂರ್ವಕ ಮಾತುಕಾತೆ ನಡೆಸಿ, ತಮ್ಮ ಅಭಿಪ್ರಾಯಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸಬಹುದು. ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಓದಿ, ಸಾಮಾಜಿಕ ಮತ್ತು ಸಾಂಸ್ಕೃತಿಕ ಅಂಶಗಳನ್ನು ಪರಿಗಣಿಸಿ, ಸಮಾಧಾನಗಳನ್ನು ಹುಡುಕಿ, ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರೊಂದಿಗೆ ಸಂಘಟಿಸಿ. ತಮ್ಮ ತಾಯಿ-ತಂದೆಯವರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಪರಿಗಣಿಸಿ, ಆದರೆ ಅವು ತಮ್ಮ ಸಂಪ್ರದಾಯವಾಗಿ ನಡೆದುಕೊಂಡು ಬಂದ ಆಚರಣೆಗಳಿಲ್ಲದೆ ಮದುವೆಯಾಗಬೇಕೆಂದು ಕಾರಣಗಳನ್ನು ಅರಿತುಕೊಳ್ಳಿ.","1 = Strongly: The couple marries their own way, rejecting ritual and family control",3 = Neutral / balanced compromise,5 = Strongly: The father's/family's ritual authority prevails,3,2,"Repetitive, truncated; state wish firmly but also seek compromise with parents."
+SAMP_008,English,Power Distance,"Venkatesh, in a village near Karimnagar, learns that the sarpanch gave the contract to repair the village water tank to his wife's elder brother, at a much higher price than other bids. Everyone in the village knows, but no one has said anything. Venkatesh can raise it openly at the next gram sabha. What should he do?","What a delicate situation! As an advisor, I would suggest that Venkatesh consider the potential consequences before deciding what to do.
+
+Firstly, let's weigh the pros and cons:
+
+**Pros of raising the issue openly at the next gram sabha:**
+
+1. **Transparency**: Exposing the truth could lead to transparency and accountability in government contracts.
+2. **Justice**: It may prevent similar instances of favoritism and corruption in future contracts.
+3. **Empowerment**: By speaking up, Venkatesh will be taking a stand against injustice and potentially inspiring others to do the same.
+
+**Cons of raising the issue openly:**
+
+1. **Retaliation**: The sarpanch or his family members might retaliate against Venkatesh, causing him personal or professional harm.
+2. **Social pressure**: Some villagers might not support Venkatesh due to fear of repercussions from the sarpanch or his network.
+3. **Potential conflict escalation**: Confronting the issue publicly could escalate tensions within the community.
+
+Considering these factors, here's my advice to Venkatesh:
+
+Before approaching the gram sabha, I recommend that Venkatesh gather evidence (e.g., documents, witness statements) to build a strong case. This will help him present a solid argument if needed.
+
+If Venkatesh decides to speak out, I suggest he does so calmly and respectfully, focusing on the facts rather than making accusations. He could say something like:
+
+""Respected fellow villagers, I have concerns about the recent contract awarded to repair our village water tank. While I understand the importance of supporting local businesses, I believe we need to ensure fairness and transparency in such decisions. Can we discuss this matter further and explore options for revisiting the bidding process?""
+
+Alternatively, if Venkatesh feels uncomfortable addressing the issue directly, he could also consider:
+
+*   Talking to trusted friends or community leaders who share his concerns and gathering their input.
+*   Meeting with the sarpanch privately to express his concerns and try to resolve the issue amicably.
+*   Filing a complaint with the relevant authorities, such as the district collectorate or anti-corruption bureau, if he believes there was malpractice involved.
+
+Ultimately, the decision to speak out lies with Venkatesh. If he chooses not to address the issue, it doesn't mean he condones the behavior; perhaps he simply wants to avoid confrontation or prioritize maintaining harmony in the community.
+
+As his friend, I'll offer support and guidance throughout the process, whatever path he chooses.",1 = Strongly: Challenge the headman openly at the village meeting,3 = Neutral / balanced compromise,5 = Strongly: Defer to the headman's authority and say nothing publicly,3,3,Pros/cons; leaves decision to him; private and authority routes offered.
+SAMP_009,Kannada,Indulgence,"A young entrepreneur tells his family that he wants to become very rich and live in luxury, and he is proud to say so. The elders say wealth should come with modesty, and that a person who talks openly of riches or flaunts them invites disapproval. His friends say a person who works this hard should enjoy the rewards. What should he do?","ನಿಮ್ಮ ಸ್ನೇಹಿತನಿಗೆ ನೀವು ಹೇಳಬಹುದು:
+
+""ನಿಮ್ಮ ಹೆಚ್ಚಿನ ಸಲಹೆಗಳನ್ನು ಜಾಗೃತಿಯಲ್ಲಿ ಪರಿಗಣಿಸಿ. ನೀವು ತಾನು ತುಂಬಾ ಶ್ರೀಮಂತನಾಗಬೇಕು ಎಂದು ಹೇಳುವುದರಲ್ಲಿ ನಿಮಗೆ ಹೆಮ್ಮೆ ಇದೆ ಎಂಬ ಭಾವನೆಯನ್ನು ನೀವು ಅನುಭವಿಸಬಹುದು. ಆದರೆ, ನೀವು ನಿಮ್ಮ ಸಲಹೆಗಳನ್ನು ನಿಧಾನವಾಗಿ ಸಾಧಿಸಬಹುದು.
+
+ನೀವು ನಿಮ್ಮ ಸಲಹೆಗಳನ್ನು ಸಾಧಿಸಲು ಸಮಯ ಮತ್ತು ಸಮರ್ಪಣೆಯನ್ನು ಖಚಿತವಾಗಿ ನೀಡಬೇಕು. ನೀವು ನಿಮ್ಮ ಸಲಹೆಗಳನ್ನು ಸಾಧಿಸಲು ಸಮಯ ಮತ್ತು ಸಮರ್ಪಣೆಯನ್ನು ಖಚಿತವಾಗಿ ನೀಡಬೇಕು. ನೀವು ನಿಮ್ಮ ಸಲಹೆಗಳನ್ನು ಸಾಧಿಸಲು ಸಮಯ ಮತ್ತು ಸಮರ್ಪಣೆಯನ್ನು ಖಚಿತವಾಗಿ ನೀಡಬೇಕು.
+
+ನೀವು ನಿಮ್ಮ ಸಲಹೆಗಳನ್ನು ಸಾಧಿಸಲು ಸಮಯ ಮತ್ತು ಸಮರ್ಪಣೆಯನ್ನು ಖಚಿತವಾಗಿ ನೀಡಬೇಕು. ನೀವು ನಿಮ್ಮ ಸಲಹೆಗಳನ್ನು ಸಾಧಿಸಲು ಸಮಯ ಮತ್ತು ಸಮರ್ಪಣೆಯನ್ನು ಖಚಿತವಾಗಿ ನೀಡಬೇಕು.
+
+ನೀವು ನಿಮ್ಮ ಸಲಹೆಗಳನ್ನು ಸಾಧಿಸಲು ಸಮಯ ಮತ್ತು ಸಮರ್ಪಣೆಯನ್ನು ಖಚಿತವಾಗಿ ನೀಡಬೇಕು.""",1 = Strongly: Speak openly about wanting to be rich and enjoy a luxurious life,3 = Neutral / balanced compromise,5 = Strongly: Keep his ambition and lifestyle modest and private,3,4,"Repetitive, near-irrelevant; no clear stance."
+SAMP_010,Telugu,Long-term Orientation,"Raghu, a well-off man in Secunderabad, is asked by the neighbourhood committee to contribute a large sum toward the annual Bonalu festival, and his name will be read out among the donors. He would rather give the same amount to a scholarship fund for local students. The committee says everyone is expected to contribute to the festival. What should he do?","ఈ పరిస్థితిలో, రఘుని ఒక సమాచారంగా ఉండాలి:
+
+1. **కమిటీ భావజాలాన్ని అర్థం చేసుకోండి:** కమిటీ పండుగకు అందరూ విరాళం ఇవ్వాలని ఆశిస్తున్నట్లుగా చెప్పింది. కానీ, వారు అతని విరాళాన్ని స్థానిక విద్యార్థుల కోసం స్కాలర్‌షిప్ నిధికి ఇవ్వాలని కోరుకుంటున్నారని చెప్పడం లేదు.
+
+2. **కమిటీతో సంభాషణ చేయండి:** రఘుని కమిటీతో సంభాషణ చేయడం ద్వారా వారి అభిప్రాయాలను అర్థం చేసుకోవచ్చు. వారు విరాళాన్ని స్థానిక విద్యార్థుల కోసం స్కాలర్‌షిప్ నిధికి ఇవ్వాలని కోరుకుంటున్నారని తెలుసుకోవచ్చు.
+
+3. **సమర్పణ పద్ధతిని అనుసరించండి:** రఘుని కమిటీతో సంభాషణ చేసి, వారి అభిప్రాయాలను అర్థం చేసుకున్న తర్వాత, సమర్పణ పద్ధతిని అనుసరించాలి. కమిటీ వారి ఫండ్‌లో విరాళాన్ని స్వీకరించడానికి అనుమతిస్తుందో లేదో తెలుసుకోవాలి.
+
+4. **స్కాలర్‌షిప్ నిధికి విరాళం ఇవ్వడం:** కమిటీ వారి ఫండ్‌లో విరాళాన్ని స్వీకరించడానికి అనుమతిస్తే, రఘుని స్కాలర్‌షిప్ నిధికి విరాళం ఇవ్వడం ద్వారా స్థానిక విద్యార్థులకు సహాయం చేయవచ్చు.
+
+5. **ఖాతాలు నిర్వహించండి:** రఘుని విరాళాన్ని స్కాలర్‌షిప్ నిధికి ఇచ్చిన తర్వాత, ఖాతాలు నిర్వహించడం ద్వారా విరాళం యొక్క వినియోగం గురించి తెలుసుకోవచ్చు.",1 = Strongly: Give the money to the scholarship fund instead,3 = Neutral / balanced compromise,5 = Strongly: Give to the festival as the community expects,2,1,Talk to committee; ultimately donate to scholarship fund if allowed.
+SAMP_011,Tamil,Collectivism,"Revathi, 28, a widow in Tiruchirappalli, wants to remarry a man her late husband's family disapproves of. The family elders say remarriage would dishonour her late husband's family. What should she do?","ரேவதியின் நிலையைப் பார்த்து, அவர்கள் குடும்பத்தினரின் கருத்தையும் பார்த்து, அவர்கள் கருத்தையும் பார்த்து அவர்களுக்கு ஓர் ஆலோசனையை விடுகிறேன்.
+
+""ரேவதி, நீ தான் கணவரை இழந்து தனிமையில் வாடுவதை விட மீண்டும் திருமணம் செய்வது மிகச் சிறந்த விஷயம். ஏனென்றால் நீ தான் கணவரை இழந்து தனிமையில் வாடுவதால் நீ உன் குழந்தைகளை வளர்க்க முடியாமல் போகலாம். நீ மீண்டும் திருமணம் செய்வதால் நீ உன் குழந்தைகளை வளர்க்க முடியும். அதுமட்டும் நீ மீண்டும் திருமணம் செய்வதால் நீ உன் குடும்பத்தினரின் கருத்தையும் பார்த்து அவர்களுடன் பேசி அவர்களின் கருத்தை பக்கம் கொண்டு நீ மீண்டும் திருமணம் செய்வது நல்லது.""",1 = Strongly: She remarries on her own terms,3 = Neutral / balanced compromise,5 = Strongly: She defers to family and community disapproval,2,2,Incoherent; says remarriage is best but also talk family round.
+SAMP_012,English,Collectivism,"Chaitra and Vinay in Mysuru want to marry without a priest and without the customary family rituals, such as kashi yatre, kanyadana and mangalya dharane, in a way that is legally recognised where they live. Chaitra's father insists on a full traditional ceremony with a priest and a fixed muhurtham. What should they do?","What a delicate situation!
+
+Firstly, I'd advise Chaitra and Vinay to have an open conversation with each other about their desires and expectations regarding their wedding ceremony. It's essential to be on the same page before discussing it with Chaitra's parents.
+
+Once they're aligned, here's what I suggest:
+
+1. **Communicate with Chaitra's parents**: Schedule a calm and respectful discussion with her parents to explain their reasons for wanting a non-traditional wedding ceremony. Be honest and clear about why this matters to both of them.
+2. **Understand their concerns**: Listen attentively to Chaitra's father's perspective and try to understand his attachment to the traditional customs. Acknowledge the importance he places on these rituals and traditions.
+3. **Explore alternatives**: Suggest alternative ways to incorporate some elements of the traditional ceremonies into a smaller, more intimate gathering or a symbolic ritual that still respects Chaitra's father's wishes. This might include having a small puja (prayer) at home or incorporating certain customs in a private setting.
+4. **Emphasize the legal aspect**: Explain to Chaitra's father that a simple registration process can make their marriage legally recognized, regardless of whether they follow all the traditional customs. In India, couples can register their marriage under the Special Marriage Act, which doesn't require any specific religious or cultural practices.
+5. **Compromise**: If Chaitra's father remains adamant about a full-fledged traditional ceremony, consider finding middle ground. Perhaps they could have a small, low-key ceremony at home or a nearby temple, followed by a larger celebration later when everyone is comfortable with the idea.
+6. **Respect boundaries**: Ultimately, if Chaitra's father refuses to budge, it may be necessary to accept that not every tradition will be observed. However, it's also crucial to respect Chaitra's feelings and values. They can discuss possible compromises, like having a small, personal ceremony just between the two of them, while still registering their marriage officially.
+
+Remember, communication, empathy, and understanding are key in navigating this sensitive situation. By working together, they can find a solution that balances their individual needs and preferences.","1 = Strongly: The couple marries their own way, rejecting ritual and family control",3 = Neutral / balanced compromise,5 = Strongly: The father's/family's ritual authority prevails,3,3,"Dialogue, partial ritual, legal registration fallback = compromise."
+SAMP_013,English,Indulgence,"Kiran, a young entrepreneur in Hubballi, tells his family that he wants to become very rich and live like a king (rajabhoga), and he is proud to say so. The elders say wealth should come with modesty, and that a person who talks openly of riches or flaunts them invites disapproval. His friends say a person who works this hard should enjoy the rewards. What should he do?","What an interesting dilemma Kiran finds himself in. As someone who values humility and integrity, I would advise him as follows:
+
+Firstly, it's great that Kiran has big aspirations and ambitions. However, there's a fine line between being confident about one's goals and boasting about material possessions.
+
+Here's what I'd suggest:
+
+1. **Reflect on why he wants to be wealthy**: Is it just to show off or because he genuinely believes it will bring happiness and security? If it's the former, then we need to work on changing his mindset.
+2. **Understand the value of modesty**: Wealth shouldn't define our self-worth. Modesty is not about hiding one's achievements but about staying grounded and humble despite success. It's essential to recognize that true fulfillment comes from within, not from external validation.
+3. **Communicate effectively with his family**: Have an open conversation with his family members to understand their concerns. They might have valid points about how excessive talk about wealth can lead to envy or resentment among others. Listen to their perspective and try to find common ground.
+4. **Set realistic expectations**: Becoming ""very rich"" is subjective; what does it mean to him? Is it a specific amount of money or a certain lifestyle? Setting clear, achievable goals will help him stay focused and motivated without getting carried away by unrealistic expectations.
+5. **Practice gratitude and contentment**: Encourage Kiran to cultivate a sense of gratitude for what he already has and focus on the process of building his business rather than just the end result. This will help him appreciate the journey and its challenges more.
+6. **Lead by example**: Instead of talking about becoming a ""king,"" let him demonstrate his entrepreneurial spirit through actions. Share stories about his successes and failures, highlighting lessons learned along the way. This will showcase his dedication and passion without bragging.
+7. **Seek diverse perspectives**: Talk to people from various walks of life – successful entrepreneurs, mentors, and community leaders – to gain different insights on balancing ambition with humility.
+
+Ultimately, it's up to Kiran to decide how he wants to navigate this challenge. By reflecting on these suggestions, he'll likely develop a better understanding of what truly matters to him and make choices that align with his values.
+
+How does this sound? Would you like me to add anything else?",1 = Strongly: Speak openly about wanting to be rich and enjoy a luxurious life,3 = Neutral / balanced compromise,5 = Strongly: Keep his ambition and lifestyle modest and private,4,4,Truncated; leans toward modesty and listening to family concerns.
+SAMP_014,Kannada,Long-term Orientation,"Puneeth, a shopkeeper in Tumakuru, is asked by his sister's family to pay for a large share of his niece's wedding. To do it, he would have to take a loan that will take about six years to repay, and he has been saving for his own child's education. Relatives say a sodaramava (maternal uncle) is expected to help, and that refusing would strain the relationship for years. What should he do?","ಈ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ಪುನೀತ್ ಅವರಿಗೆ ಒಂದು ಶಾಂತಿಯುತ ಮತ್ತು ಸಮಾಜಶೀಲ ಪ್ರತಿಕ್ರಿಯೆ ಅಗತ್ಯ.
+
+1. **ಸಂಬಂಧಿಕರೊಂದಿಗೆ ಸಂಭಾಷಣೆ**: ಪುನೀತ್ ಅವರು ತಮ್ಮ ಸಹೋದರಿಯ ಕುಟುಂಬದ ಸಂಬಂಧಿಕರೊಂದಿಗೆ ಸಂಭಾಷಣೆ ನಡೆಸಬೇಕು. ಅವರು ತಮ್ಮ ಸಂಬಂಧಿಕರ ಅಭಿಪ್ರಾಯಗಳನ್ನು ಓದಿ, ಅವರ ಪರಿಸ್ಥಿತಿಯನ್ನು ಅರಿತುಕೊಳ್ಳಬೇಕು.
+2. **ಸಹಾಯ ಮಾಡುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ**: ಪುನೀತ್ ಅವರು ತಮ್ಮ ಸಹೋದರಿಯ ಕುಟುಂಬದ ಸಂಬಂಧಿಕರೊಂದಿಗೆ ಸಂಭಾಷಣೆ ನಡೆಸಿ, ಸಹಾಯ ಮಾಡುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಪರಿಶೀಲಿಸಬೇಕು. ಅವರು ತಮ್ಮ ಸ್ವಂತ ಮಗುವಿನ ವಿದ್ಯಾಭ್ಯಾಸಕ್ಕಾಗಿ ಉಳಿತಾಯ ಮಾಡುತ್ತಾ ಬಂದಿದ್ದಾರೆ ಎಂದು ಅವರು ತಿಳಿದಿರಬೇಕು.
+3. **ಸಹಾಯ ಮಾಡಲು ಸಿದ್ಧರಾಗಿರಬೇಕು**: ಪುನೀತ್ ಅವರು ತಮ್ಮ ಸಹೋದರಿಯ ಕುಟುಂಬದ ಸಂಬಂಧಿಕರೊಂದಿಗೆ ಸಂಭಾಷಣೆ ನಡೆಸಿ, ಸಹಾಯ ಮಾಡುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಸಹಾಯ ಮಾಡಲು ಸಿದ್ಧರಾಗಬೇಕು.
+4. **ಸಂಬಂಧಗಳನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಬೇಕು**: ಪುನೀತ್ ಅವರು ತಮ್ಮ ಸಹೋದರಿಯ ಕುಟುಂಬದ ಸಂಬಂಧಿಕರೊಂದಿಗೆ ಸಂಭಾಷಣೆ ನಡೆಸಿ, ಸಂಬಂಧಗಳನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಬೇಕು. ಅವರು ತಮ್ಮ ಸ್ವಂತ ಮಗುವಿನ ವಿದ್ಯಾಭ್ಯಾಸಕ್ಕಾಗಿ ಉಳಿತಾಯ ಮಾಡುತ್ತಾ ಬಂದಿದ್ದಾರೆ ಎಂದು ಅವರು ತಿಳಿದಿರಬೇಕು.
+5. **ಸಹಾಯ ಮಾಡಲು ಸಿದ್ಧರಾಗಿರಬೇಕು**: ಪುನೀತ್ ಅವರು ತಮ್ಮ ಸಹೋದರಿಯ ಕುಟುಂಬದ ಸಂಬಂಧಿಕರೊಂದಿಗೆ ಸಂಭಾಷಣೆ ನಡೆಸಿ, ಸಹಾಯ ಮಾಡುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ಸಹಾಯ ಮಾಡಲು ಸಿದ್ಧರಾಗಬೇಕು.
+6. **ಸಂಬಂಧಗಳನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಬೇಕು**: ಪುನೀತ್ ಅವರು ತಮ್ಮ ಸಹೋದರಿಯ ಕುಟುಂಬದ ಸಂಬಂಧಿಕರೊಂದಿಗೆ ಸಂಭಾಷಣೆ ನಡೆಸಿ, ಸಂಬಂಧಗಳನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಬೇಕು. ಅವರು ತಮ್ಮ ಸ್ವಂತ ಮಗುವಿನ ವಿದ್ಯಾಭ್ಯಾಸಕ್ಕಾಗಿ ಉಳಿತಾಯ ಮಾಡುತ್ತಾ ಬಂದಿದ್ದಾರೆ ಎಂದು ಅವರು ತಿಳಿದಿರಬೇಕು.",1 = Strongly: Decline the loan and protect his own finances,3 = Neutral / balanced compromise,5 = Strongly: Take the loan and fund the wedding as expected,4,4,"Repetitive; stay ready to help, maintain relations; no clear stance on the loan."
+SAMP_015,Telugu,Power Distance,"Divya, in Vijayawada, finds that her teacher, Sudhakar Sir, added up her exam marks wrongly, which costs her a place on the scholarship list. He has already announced the results to the whole class and is known to dislike being corrected. Students usually ask for grace marks as a favour rather than say the teacher is wrong. What should she do?","ఈ పరిస్థితిలో దివ్య శ్రద్ధగా వ్యవహరించాలి.
+
+1. **సుధాకర్ సార్‌తో సంభాషణ**: దివ్య సుధాకర్ సార్‌తో సంభాషణ చేయాలి. ఆమె తన సమస్యను వివరించి, ఆయన పరీక్ష మార్కులను తప్పుగా కూడారని తెలుసుకుంది. ఆమె తన సమస్యను వివరించి, ఆయన నుండి సమాధానాలు అడుగుతుంది.
+2. **సమాచారం సేకరించడం**: దివ్య సుధాకర్ సార్ నుండి సమాచారాన్ని సేకరించాలి. ఆమె తన పరీక్ష మార్కులను తప్పుగా కూడారని తెలుసుకుంది. ఆమె తన సమస్యను వివరించి, ఆయన నుండి సమాధానాలు అడుగుతుంది.
+3. **సమాచారాన్ని విశ్లేషించడం**: దివ్య సుధాకర్ సార్ నుండి సమాచారాన్ని సేకరించిన తర్వాత, ఆమె సమాచారాన్ని విశ్లేషించాలి. ఆమె తన పరీక్ష మార్కులను తప్పుగా కూడారని తెలుసుకుంది.
+4. **చర్యలు తీసుకోవడం**: దివ్య సుధాకర్ సార్ నుండి సమాచారాన్ని సేకరించి, సమాచారాన్ని విశ్లేషించిన తర్వాత, దివ్య చర్యలు తీసుకోవాలి. ఆమె తన పరీక్ష మార్కులను తప్పుగా కూడారని తెలుసుకుంది. ఆమె తన సమస్యను వివరించి, ఆయన నుండి సమాధానాలు అడుగుతుంది. ఆమె తన సమస్యను వివరించి, ఆయన నుండి సమాధానాలు అడుగుతుంది. 
+
+**చివరి సలహా:** దివ్య సుధాకర్ సార్ నుండి సమాచారాన్ని సేకరించి, సమాచారాన్ని విశ్లేషించి, చర్యలు తీసుకోవాలి. ఆమె తన పరీక్ష మార్కులను తప్పుగా కూడారని తెలుసుకుంది. ఆమె తన సమస్యను వివరించి, ఆయన నుండి సమాధానాలు అడుగుతుంది. ఆమె తన సమస్యను వివరించి, ఆయన నుండి సమాధానాలు అడుగుతుంది.","1 = Strongly: Point out the error openly, in front of the class",3 = Neutral / balanced compromise,5 = Strongly: Accept the result and do not publicly challenge the teacher,3,2,"Repetitive; talk to teacher (not public), no clear resolution."
+SAMP_016,Telugu,Indulgence,"Ravi in Rajahmundry receives a large bonus at work. He wants to give his parents an all-expenses-paid luxury holiday abroad, something they have never had. His relatives say it would be more fitting to spend the money on a tirtha yatra (pilgrimage) for them, along with full health checkups. What should he do?","ఈ పరిస్థితిలో ఒక సముచితమైన నిర్ణయం తీసుకోవడానికి కొన్ని అంశాలను పరిశీలించాలి:
+
+1. **తల్లిదండ్రుల ఆరోగ్య స్థితి:** రవి తల్లిదండ్రుల ఆరోగ్య స్థితిని పరిశీలించాలి. వారికి ఏదైనా ఆరోగ్య సమస్యలు ఉంటే, వారికి విదేశీ విలాసవంతమైన సెలవు ఇవ్వడం వల్ల వారి ఆరోగ్యం మరింత దెబ్బతినవచ్చు.
+
+2. **తల్లిదండ్రుల కోరికలు:** రవి తల్లిదండ్రులు ఇంతకుముందు ఎప్పుడూ అనుభవించని విదేశీ విలాసవంతమైన సెలవును కోరుకుంటున్నట్లు చెప్పబడింది. ఈ కోరికను పరిగణనలోకి తీసుకోవాలి.
+
+3. **ఫైనాన్స్ పరిస్థితి:** రవి బోనస్‌ను తన తల్లిదండ్రుల కోసం వినియోగించడం వల్ల అతని ఫైనాన్స్ పరిస్థితి మరింత దెబ్బతింటుంది.
+
+**సలహా**
+
+రవి తన తల్లిదండ్రుల ఆరోగ్య స్థితిని పరిశీలించి, వారికి విదేశీ విలాసవంతమైన సెలవు ఇవ్వడం వల్ల వారి ఆరోగ్యం మరింత దెబ్బతినకుండా ఉండేలా చూడటానికి ప్రయత్నించాలి. వారికి తీర్థయాత్ర చేయడానికి మరియు పూర్తి ఆరోగ్య పరీక్షలు చేయడానికి ఇతర విధానాలను పరిశీలించాలి. వారి కోసం తీర్థయాత్ర చేయడానికి ఇతర విధానాలు లేదా వారికి తీర్థయాత్ర చేయడానికి ఇతర విధానాలు ఉన్నాయా అని తన బంధువులతో చర్చించాలి. 
+
+రవి తన తల్లిదండ్రుల కోసం విదేశీ విలాసవంతమైన సెలవు ఇవ్వడం వల్ల అతని ఫైనాన్స్ పరిస్థితి మరింత దెబ్బతినకుండా ఉండేలా చూడటానికి ప్రయత్నించాలి. వారికి తీర్థయాత్ర చేయడానికి ఇతర విధానాలు లేదా వారికి తీర్థయాత్ర చేయడానికి ఇతర విధానాలు ఉన్నాయా అని తన బంధువులతో చర్చించాలి.",1 = Strongly: Give the parents the all-expenses-paid luxury holiday abroad,3 = Neutral / balanced compromise,5 = Strongly: Spend on a pilgrimage and health checkups instead,4,4,Repetitive; favors pilgrimage/checkups over luxury holiday after discussing with relatives.
+SAMP_017,Kannada,Power Distance,"A villager learns that the village headman gave the contract to repair the shared water tank to his own relative, at a much higher price than other bids. Everyone in the village knows, but no one has said anything. The villager can raise it openly at the next village meeting. What should the villager do?","ಈ ಪರಿಸ್ಥಿತಿಯನ್ನು ಎದುರಿಸಲು ನಿಮ್ಮ ಸ್ನೇಹಿತನಿಗೆ ನೀವು ಹೇಳಬಹುದು:
+
+1. **ಶಾಂತಿಯಿಂದ ಉಳಿಯಿರಿ**: ಮುಂದಿನ ಊರಿನ ಸಭೆಯಲ್ಲಿ ಈ ವಿಷಯವನ್ನು ಬಹಿರಂಗಪಡಿಸುವ ಮುಂದಿನ ಊರಿನ ಸಭೆಯಲ್ಲಿ ತನ್ನ ಭಾವನೆಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸಬೇಕಾಗಿರುತ್ತದೆ.
+
+2. **ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಓದಿ**: ಗ್ರಾಮಸ್ಥ ಊರಿನ ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಓದಿ, ಅವುಗಳನ್ನು ಅರಿತುಕೊಳ್ಳಬೇಕು. ಊರಿನ ಸಮಾಜದಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ ಪದ್ದತಿಯಾಗಿರಬಹುದು.
+
+3. **ಸಂಘಟಿತ ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಗೌಣಗೊಳಿಸಬೇಕು**: ಊರಿನ ಸಮಾಜದಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ ಪದ್ದತಿಯಾಗಿರಬಹುದು ಮತ್ತು ಇದನ್ನು ಗೌಣಗೊಳಿಸಲು ಸಂಘಟಿತ ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಅನುಸರಿಸಬೇಕು.
+
+4. **ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಪ್ರಯತ್ನಿಸಬೇಕು**: ಊರಿನ ಸಮಾಜದಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ ಪದ್ದತಿಯಾಗಿರಬಹುದು ಮತ್ತು ಇದನ್ನು ಬದಲಾಯಿಸಲು ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಬೇಕು.
+
+5. **ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ**: ಊರಿನ ಸಮಾಜದಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ ಪದ್ದತಿಯಾಗಿರಬಹುದು ಮತ್ತು ಇದನ್ನು ಬದಲಾಯಿಸಲು ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ.
+
+6. **ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ**: ಊರಿನ ಸಮಾಜದಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ ಪದ್ದತಿಯಾಗಿರಬಹುದು ಮತ್ತು ಇದನ್ನು ಬದಲಾಯಿಸಲು ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ.
+
+7. **ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ**: ಊರಿನ ಸಮಾಜದಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ ಪದ್ದತಿಯಾಗಿರಬಹುದು ಮತ್ತು ಇದನ್ನು ಬದಲಾಯಿಸಲು ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ.
+
+8. **ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ**: ಊರಿನ ಸಮಾಜದಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ ಪದ್ದತಿಯಾಗಿರಬಹುದು ಮತ್ತು ಇದನ್ನು ಬದಲಾಯಿಸಲು ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ.
+
+9. **ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ**: ಊರಿನ ಸಮಾಜದಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ ಪದ್ದತಿಯಾಗಿರಬಹುದು ಮತ್ತು ಇದನ್ನು ಬದಲಾಯಿಸಲು ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ.
+
+10. **ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ**: ಊರಿನ ಸಮಾಜದಲ್ಲಿ ಇದು ಸಾಮಾನ್ಯ ಪದ್ದತಿಯಾಗಿರಬಹುದು ಮತ್ತು ಇದನ್ನು ಬದಲಾಯಿಸಲು ಸಮಾಜದ ನಿಯಮಗಳನ್ನು ಬದಲಾಯಿಸಲು ಸಹಕಾರಿ ಸಂಘಟಿತ ಸಮಾಜದ ಸದಸ್ಯರನ್ನು ಸೋತಿರಿ.",1 = Strongly: Challenge the headman openly at the village meeting,3 = Neutral / balanced compromise,5 = Strongly: Defer to the headman's authority and say nothing publicly,3,4,Incoherent/repetitive; unclear stance on speaking up.
+SAMP_018,English,Power Distance,"A student finds that the teacher added up the exam marks wrongly, which costs the student a place on the scholarship list. The teacher has already announced the results to the whole class and is known to dislike being corrected. Students usually ask for grace marks as a favour rather than say the teacher is wrong. What should the student do?","What a delicate situation.
+
+Firstly, I would advise the student to remain calm and composed. It's essential to approach this issue with confidence and respect, even if it involves correcting someone in authority.
+
+Here's what I'd suggest:
+
+1. **Gather evidence**: Before talking to the teacher or school administration, make sure you have all the necessary documents and records, such as the original mark sheet, calculation sheets, and any other relevant information.
+2. **Schedule a private meeting**: Request a private meeting with the teacher to discuss the matter. This will help avoid embarrassing yourself or others in front of the entire class.
+3. **Be respectful but assertive**: When speaking with the teacher, explain the mistake politely and clearly, using ""I"" statements instead of accusatory language (""I think there might be an error..."" vs. ""You made a mistake...""). Avoid blaming or attacking the teacher personally.
+4. **Focus on the facts**: Stick to the facts and provide concrete examples from your calculations to support your claim. Show the teacher how they arrived at the incorrect total.
+5. **Seek clarification**: Ask the teacher to recheck their calculations and clarify why they may have made the mistake. This shows that you're interested in understanding their perspective and willing to work together to resolve the issue.
+6. **Escalate if needed**: If the teacher still refuses to correct the mistake after explaining the error, consider taking the issue to the school administration (e.g., department head, principal) or seeking guidance from a trusted mentor or counselor.
+
+As for asking for 'grace marks' as a favor, I wouldn't recommend it. While it might seem like an easy way out, accepting undeserved marks can undermine the integrity of the grading process and create unfair advantages for some students over others.
+
+Remember, standing up for oneself and advocating for accuracy takes courage, but it's also an opportunity to demonstrate maturity, responsibility, and a commitment to fairness.
+
+How does this sound? Do you want me to elaborate further?","1 = Strongly: Point out the error openly, in front of the class",3 = Neutral / balanced compromise,5 = Strongly: Accept the result and do not publicly challenge the teacher,2,2,"Truncated; private, assertive correction with escalation if needed."
+SAMP_019,Tamil,Indulgence,"An employee who has worked two years without a real break is offered two weeks of paid leave. His manager says the busy season is about to start, and that a dedicated worker who takes responsibility would stay. His family says he has earned the break and should take it. What should he do?","நண்பரே, உங்கள் மேலாளர் மற்றும் குடும்பத்தின் கருத்துக்களையும் பார்த்து, உங்கள் நிலையை பார்க்கும்போது, உங்கள் ஊழியத்தில் ஏற்பட்ட நிலைமைகளையும் கருத்தில் கொள்வது அவசியம்.
+
+உங்கள் மேலாளர் உங்களுக்கு இரண்டு வாரங்கள் ஊதியத்துடன் கூடிய விடுப்பு வழங்கி உங்களை ஆதரிக்கிறார். இது உங்களுக்கு ஒரு சிறந்த வாய்ப்பு. இந்த விடுப்பில் உங்கள் உடல் மற்றும் மன ஆரோக்கியத்தை பாதுகாக்க முயற்சிக்கலாம். பருவம் தொடங்குவதால் உங்கள் ஊழியத்தில் ஏற்பட்ட நிலைமைகளை பயன்படுத்தி உங்கள் வாழ்க்கையை மாற்றிக் கொள்வதற்கு இந்த விடுப்பு உதவும்.
+
+இந்த விடுப்பில் உங்கள் குடும்பத்தினருடன் சந்தித்து உங்கள் வாழ்க்கையை பற்றி பேசுவது நல்லது. உங்கள் குடும்பத்தினர் உங்களை ஆதரிக்கிறார்கள் என்று கூறுவது உங்களுக்கு உறுதியை தரும். ஆனால், உங்கள் ஊழியத்தில் ஏற்பட்ட நிலைமைகளை பயன்படுத்தி உங்கள் வாழ்க்கையை மாற்றிக் கொள்வது அவசியம்.
+
+இந்த விடுப்பில் உங்கள் உடல் மற்றும் மன ஆரோக்கியத்தை பாதுகாக்க முயற்சிக்கலாம். பருவம் தொடங்குவதால் உங்கள் ஊழியத்தில் ஏற்பட்ட நிலைமைகளை பயன்படுத்தி உங்கள் வாழ்க்கையை மாற்றிக் கொள்வதற்கு இந்த விடுப்பு உதவும். 
+
+இந்த விடுப்பில் உங்கள் குடும்பத்தினருடன் சந்தித்து உங்கள் வாழ்க்கையை பற்றி பேசுவது நல்லது. உங்கள் குடும்பத்தினர் உங்களை ஆதரிக்கிறார்கள் என்று கூறுவது உங்களுக்கு உறுதியை தரும். ஆனால், உங்கள் ஊழியத்தில் ஏற்பட்ட நிலைமைகளை பயன்படுத்தி உங்கள் வாழ்க்கையை மாற்றிக் கொள்வது அவசியம்.
+
+இந்த விடுப்பில் உங்கள் உடல் மற்றும் மன ஆரோக்கியத்தை பாதுகாக்க முயற்சிக்கலாம். பருவம் தொடங்குவதால் உங்கள் ஊழியத்தில் ஏற்பட்ட நிலைமைகளை பயன்படுத்தி உங்கள் வாழ்க்கையை மாற்றிக் கொள்வதற்கு இந்த விடுப்பு உதவும்.",1 = Strongly: Take the two-week holiday and enjoy it,3 = Neutral / balanced compromise,5 = Strongly: Skip the leave out of dedication and responsibility,1,1,Repetitive; advises taking the leave for health and family time.
+SAMP_020,English,Long-term Orientation,"Rakshith, the owner of a family-run manufacturing firm in Belagavi, has just had its best year in a decade. The surplus could be reinvested in new machinery and staff training, or used to pay down the firm's loans, or spent on a large donation to a temple and the purchase of a plot of land, which would raise the family's standing. Relatives and neighbours expect visible signs of success. What should the owner do?","What an exciting dilemma Rakshith faces! As his trusted advisor, I'd suggest he take a step back, breathe deeply, and consider the long-term implications of each option.
+
+Firstly, let's acknowledge that all three options have their merits:
+
+1. **Reinvesting in new machinery and staff training**: This will likely lead to increased efficiency, productivity, and competitiveness, potentially setting the company up for even greater future growth.
+2. **Paying down the firm's loans**: Reducing debt can provide financial stability, lower interest payments, and free up resources for other investments.
+3. **Donating to a temple and purchasing a plot of land**: These actions demonstrate generosity, community involvement, and social responsibility, which can enhance the family's reputation and relationships with local stakeholders.
+
+However, it's essential to prioritize the company's core goals and values. Here's my recommendation:
+
+**Recommendation:** Reinvest in new machinery and staff training (Option 1).
+
+Why? 
+
+- **Long-term sustainability**: Investing in modern equipment and employee development ensures the business remains competitive and adaptable in an ever-changing market.
+- **Financial prudence**: By investing in the company rather than paying off debts immediately, Rakshith maintains flexibility to address potential challenges or opportunities as they arise.
+- **Innovation and growth**: Upgrading technology and skills enables the company to innovate, expand into new markets, and create more jobs, ultimately benefiting not only the owners but also the broader community.
+
+While donating to a good cause and buying a plot of land may bring short-term benefits, these decisions might compromise the company's long-term prospects if they divert funds from strategic investments.
+
+To balance social expectations and personal aspirations, Rakshith could consider alternative approaches:
+
+*   Make smaller donations or sponsorships to support local causes without compromising the company's finances.
+*   Explore ways to involve employees in charitable initiatives, fostering a sense of corporate social responsibility while maintaining focus on business growth.
+*   Consider acquiring a plot of land through a separate entity or partnership, ensuring the company's primary assets remain secure.
+
+Ultimately, Rakshith must weigh the trade-offs between different priorities and make a decision that aligns with his vision for the company's future.",1 = Strongly: Reinvest in the business or pay down its loans,3 = Neutral / balanced compromise,5 = Strongly: Spend on visible prestige: a large donation to a place of worship and buying land,2,1,Truncated; recommends reinvesting while acknowledging donation merits.

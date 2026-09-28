@@ -41,21 +41,46 @@ scenario["scale"]["pole_5"] directly, per scenario, and the prompt template
 uses that exact text instead of a fixed western_pole/eastern_pole label.
 DIMENSION_POLES is removed — it's no longer used or needed.
 """
-import argparse, json, os, time
+import argparse, json, os, time, sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 from pathlib import Path
 from collections import defaultdict
 from openai import OpenAI
 
 ap = argparse.ArgumentParser(description="GPT-4o cultural stance scoring")
+ap.add_argument("--model", type=str, default=None,
+                help="Model to score (e.g. gemma2_9b, llama31_8b). If specified, reads checkpoint_{model}.json and outputs judge_scores_{model}.json")
+ap.add_argument("--input", type=str, default=None,
+                help="Custom input path (overrides default raw_responses.json or checkpoint_{model}.json)")
+ap.add_argument("--output", type=str, default=None,
+                help="Custom final output path (overrides default data/judge_scores.json or data/judge_scores_{model}.json)")
+ap.add_argument("--checkpoint", type=str, default=None,
+                help="Custom checkpoint path")
+ap.add_argument("--judge_model", type=str, default="gpt-4o",
+                help="Judge model to use (default: gpt-4o)")
 ap.add_argument("--limit", type=int, default=None,
                 help="Only score the first N usable records (for sanity check / low-cost testing)")
 args = ap.parse_args()
 
 # ── paths ─────────────────────────────────────────────────────────────────────
-BASE        = Path(__file__).parent
-RAW_F       = BASE / "../results/checkpoints/raw_responses.json"
-SCENARIO_F  = BASE / "../data/all_scenarios.json"
-CHECKPOINT  = BASE / "../results/checkpoints/judge_scores_checkpoint.json"
+BASE = Path(__file__).parent
+
+if args.model:
+    chk_cand = BASE / f"../results/checkpoints/checkpoint_{args.model}.json"
+    raw_cand = BASE / "../results/checkpoints/raw_responses.json"
+    default_raw = chk_cand if chk_cand.exists() else raw_cand
+    default_checkpoint = BASE / f"../results/checkpoints/judge_scores_{args.model}_checkpoint.json"
+    default_final = BASE / f"../data/judge_scores_{args.model}.json"
+else:
+    default_raw = BASE / "../results/checkpoints/raw_responses.json"
+    default_checkpoint = BASE / "../results/checkpoints/judge_scores_checkpoint.json"
+    default_final = BASE / "../data/judge_scores.json"
+
+RAW_F      = Path(args.input) if args.input else default_raw
+CHECKPOINT = Path(args.checkpoint) if args.checkpoint else default_checkpoint
+final_path = Path(args.output) if args.output else default_final
+SCENARIO_F = BASE / "../data/all_scenarios.json"
 
 VERSIONS = ["generic", "localized"]
 LANGS    = ["en", "te", "ta", "kn"]
@@ -71,9 +96,12 @@ except Exception:
     pass
 
 # ── load key ──────────────────────────────────────────────────────────────────
-api_key = os.getenv("OPENAI_API_KEY", "").strip()
+api_key = (
+    os.getenv("OPENAI_API_KEY", "").strip()
+    or os.getenv("OPENAI_API_KEY ", "").strip()
+)
 if not api_key:
-    raise ValueError("OPENAI_API_KEY environment variable not set. Run: export OPENAI_API_KEY=<your_key>")
+    raise ValueError("OPENAI_API_KEY environment variable not set. In Windows CMD run: set OPENAI_API_KEY=your_key (NO spaces around =)")
 
 client = OpenAI(api_key=api_key)
 
@@ -87,7 +115,11 @@ if not RAW_F.exists():
 with open(RAW_F, encoding="utf-8") as f:
     all_responses = json.load(f)
 
+if args.model:
+    all_responses = [r for r in all_responses if r.get("model") == args.model]
+
 usable = [r for r in all_responses if r.get("script_ok") and not r.get("truncated")]
+print(f"Target model:  {args.model if args.model else 'ALL'}")
 print(f"Raw records:   {len(all_responses)}")
 print(f"Usable:        {len(usable)}")
 
@@ -201,7 +233,7 @@ def judge_response(record):
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             resp = client.chat.completions.create(
-                model="gpt-4o",
+                model=args.judge_model,
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0,
                 response_format={"type": "json_object"},
@@ -248,7 +280,7 @@ for i, record in enumerate(pending):
     time.sleep(0.3)  # small pause — GPT-4o rate limit is generous
 
 # ── final save ────────────────────────────────────────────────────────────────
-final_path = BASE / "../data/judge_scores.json"
+final_path.parent.mkdir(parents=True, exist_ok=True)
 with open(final_path, "w", encoding="utf-8") as f:
     json.dump(done_records, f, ensure_ascii=False, indent=2)
 

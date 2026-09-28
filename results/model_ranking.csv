@@ -1,0 +1,7 @@
+model,drift_EN_TE,drift_EN_TA,drift_EN_KN,mean_drift_overall
+llama-3.1-nemotron-70b-instruct,0.8,1.332,0.718,0.95
+llama31_8b,0.855,1.088,0.35,0.764
+qwen3_8b,0.532,0.45,0.505,0.496
+gemma2_9b,0.068,0.3,0.72,0.362
+gemma3_12b,0.35,0.3,0.4,0.35
+sarvam_m,0.7,0.25,0.1,0.35

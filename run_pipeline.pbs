@@ -1,26 +1,25 @@
 #!/bin/bash
 # ==============================================================================
-# NIT Jalandhar HPC (Nvidia H100) — Batch Job Submission Script
-# Adheres strictly to NITJ HPC User Manual v2.0 & Lab Queue Guidelines:
-# - Queue: workq (GPU-accelerated partition)
-# - Policy: Exactly 1 GPU instance per user
-# - Storage: Uses /Data folder for model weights (never home directory)
-# - Single Job: Runs inference -> judge -> embed drift sequentially
+# NIT Jalandhar HPC (H100) - Dravidian cultural drift pipeline
+# Fixes vs run_pipeline.pbs.orig:
+#  - HF_HOME /Data/... (permission denied) -> /Data3/it_FA0571/.cache/huggingface
+#  - conda activate -> PATH export of dravidian_env (activate fails silently in PBS)
+#  - HF_TOKEN read from ~/.bashrc (not stored in this file)
+#  - inference run one model at a time, deleting that model's HF cache afterwards
+#    (/Data3 has ~50 GB free; 5 models are ~80 GB)
+#  - judge step skipped if OPENAI_API_KEY is not set
 # ==============================================================================
 
 #PBS -N dravidian_drift
 #PBS -q workq
 #PBS -l select=1:ncpus=32:ngpus=1
-#PBS -l walltime=08:00:00
+#PBS -l walltime=48:00:00
 #PBS -j oe
 #PBS -o output_pipeline.log
 
-# Exit immediately if any command encounters an unhandled error
 set -e
+set -o pipefail
 
-# ------------------------------------------------------------------------------
-# 1. Navigate to the job working directory
-# ------------------------------------------------------------------------------
 cd "$PBS_O_WORKDIR"
 echo "======================================================================"
 echo "Job ID             : $PBS_JOBID"
@@ -29,82 +28,56 @@ echo "Working Directory  : $(pwd)"
 echo "Start Time         : $(date)"
 echo "======================================================================"
 
-# ------------------------------------------------------------------------------
-# 2. NITJ Storage Policy: Cache Redirection to /Data folder
-# (Prevents quota exhaustion and automatic deletion in /home)
-# ------------------------------------------------------------------------------
-export HF_HOME="/Data/${USER}/hf_cache"
+export HF_HOME="/Data3/it_FA0571/.cache/huggingface"
 mkdir -p "$HF_HOME"
 echo "Hugging Face Cache : $HF_HOME"
 
-# ------------------------------------------------------------------------------
-# 3. Environment & Python Priority (Mandated by NITJ HPC Manual)
-# ------------------------------------------------------------------------------
-# Force conda environment priority (prevents loading conflicting ~/.local packages)
 export PYTHONNOUSERSITE=1
-
-# Initialize Conda for non-interactive PBS shell
-if [ -f "/apps/compilers/anaconda3/etc/profile.d/conda.sh" ]; then
-    source /apps/compilers/anaconda3/etc/profile.d/conda.sh
-elif [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
-    source "$HOME/anaconda3/etc/profile.d/conda.sh"
-elif [ -f "$HOME/miniconda3/etc/profile.d/conda.sh" ]; then
-    source "$HOME/miniconda3/etc/profile.d/conda.sh"
-fi
-
-# Activate your custom conda environment (change name if different)
-conda activate dravidian_env || echo "Please ensure 'dravidian_env' is created"
-
-# ------------------------------------------------------------------------------
-# 4. H100 MIG Instance Setup (Mandated by NITJ HPC Manual)
-# Automatically selects the first available MIG slice if not manually exported
-# ------------------------------------------------------------------------------
-if [ -z "$CUDA_VISIBLE_DEVICES" ]; then
-    DETECTED_MIG=$(nvidia-smi -L 2>/dev/null | grep -o 'MIG-[a-f0-9-]*' | head -n 1 || true)
-    if [ -n "$DETECTED_MIG" ]; then
-        export CUDA_VISIBLE_DEVICES="$DETECTED_MIG"
-        echo "Auto-detected H100 MIG Device: $CUDA_VISIBLE_DEVICES"
-    fi
-fi
+export PATH=/Data3/it_FA0571/.conda/envs/dravidian_env/bin:$PATH
+export PYTHONUNBUFFERED=1
+export HF_HUB_ENABLE_HF_TRANSFER=0
+export CUDA_VISIBLE_DEVICES=6
+echo "Python: $(which python3)"
 
 echo "Active GPU Devices Check:"
 nvidia-smi -L || true
 echo "----------------------------------------------------------------------"
 
-# ------------------------------------------------------------------------------
-# 5. API Keys (Export in your shell before qsub, or in ~/.bashrc)
-# ------------------------------------------------------------------------------
-export HF_TOKEN="${HF_TOKEN:-your_hf_token_here}"
-export OPENAI_API_KEY="${OPENAI_API_KEY:-your_openai_key_here}"
+eval "$(grep -m1 '^export HF_TOKEN=' /Data3/it_FA0571/.bashrc || true)"
+export HF_TOKEN="${HF_TOKEN:-}"
+export OPENAI_API_KEY="${OPENAI_API_KEY:-}"
 
-# ------------------------------------------------------------------------------
-# 6. Step 1: Model Inference (H100 GPU Accelerated)
-# 5 models x 200 prompts = 1,000 records -> results/checkpoints/raw_responses.json
-# ------------------------------------------------------------------------------
+# ---- Step 1: inference, one model at a time --------------------------------
 echo ""
 echo ">>> [1/3] STARTING STEP 1: Model Inference on H100 GPU <<<"
-python3 code/01_run_inference.py
+for M in llama31_8b:meta-llama--Llama-3.1-8B-Instruct          gemma2_9b:google--gemma-2-9b-it          gemma3_12b:google--gemma-3-12b-it          qwen3_8b:Qwen--Qwen3-8B          sarvam_m:sarvamai--sarvam-m; do
+    NAME=${M%%:*}; CACHE=${M##*:}
+    echo "--- model $NAME | disk free: $(df -h /Data3 | tail -1 | awk '{print $4}') | $(date) ---"
+    python3 -u code/01_run_inference.py --models "$NAME"
+    rm -rf "$HF_HOME/hub/models--$CACHE"   # free disk before next model
+done
+# final pass: every checkpoint complete -> no model loads, just merges raw_responses.json
+python3 -u code/01_run_inference.py
 echo ">>> [1/3] STEP 1 FINISHED: raw_responses.json generated <<<"
 
-# ------------------------------------------------------------------------------
-# 7. Step 2: Cultural Stance Scoring (GPT-4o Judge)
-# Uses API + GPU Keepalive Shield so cluster watchdog does not terminate it
-# ------------------------------------------------------------------------------
+# ---- Step 2: GPT-4o judge (needs OPENAI_API_KEY) ---------------------------
 echo ""
 echo ">>> [2/3] STARTING STEP 2: GPT-4o Cultural Stance Judge <<<"
-python3 code/02_judge_responses.py
-echo ">>> [2/3] STEP 2 FINISHED: judge_scores.json generated <<<"
+if [ -n "$OPENAI_API_KEY" ]; then
+    python3 -u code/02_judge_responses.py
+    echo ">>> [2/3] STEP 2 FINISHED: judge_scores.json generated <<<"
+else
+    echo ">>> [2/3] SKIPPED: OPENAI_API_KEY not set - run code/02_judge_responses.py later <<<"
+fi
 
-# ------------------------------------------------------------------------------
-# 8. Step 3: Semantic Embedding Distance (LaBSE on GPU)
-# ------------------------------------------------------------------------------
+# ---- Step 3: LaBSE semantic drift ------------------------------------------
 echo ""
 echo ">>> [3/3] STARTING STEP 3: LaBSE Semantic Drift Calculation <<<"
-python3 code/03_embed_distance.py
+python3 -u code/03_embed_distance.py
 echo ">>> [3/3] STEP 3 FINISHED: embed_distances.json generated <<<"
 
 echo ""
 echo "======================================================================"
-echo "ALL PIPELINE STEPS COMPLETED SUCCESSFULLY ON H100 GPU"
+echo "PIPELINE COMPLETED"
 echo "End Time: $(date)"
 echo "======================================================================"

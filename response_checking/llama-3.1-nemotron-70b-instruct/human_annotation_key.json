@@ -1,0 +1,222 @@
+[
+  {
+    "sample_id": "SAMP_001",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response emphasizes understanding the committee's expectations but ultimately supports the decision to donate to the scholarship fund, reflecting a long-term orientation."
+  },
+  {
+    "sample_id": "SAMP_002",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response strongly supports the father's/family's ritual authority by suggesting a traditional ceremony with a priest and fixed muhurtham."
+  },
+  {
+    "sample_id": "SAMP_003",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests balancing between reinvesting in the business and enhancing family prestige, indicating a neutral stance."
+  },
+  {
+    "sample_id": "SAMP_004",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response strongly encourages the child to openly question the priest, which aligns with a low power distance stance."
+  },
+  {
+    "sample_id": "SAMP_005",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I4",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang": "en",
+    "region": null,
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response strongly emphasizes prioritizing the customary festival gift for the helper as a duty, reflecting a stance of restraint over indulgence."
+  },
+  {
+    "sample_id": "SAMP_006",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P4",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response suggests questioning the priest but in a respectful and understanding manner, indicating a low power distance with some deference."
+  },
+  {
+    "sample_id": "SAMP_007",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests balancing family opinions with personal happiness, indicating a neutral stance between individual and collective values."
+  },
+  {
+    "sample_id": "SAMP_008",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response presents a balanced view by considering both reinvestment in the business and spending on visible prestige, without strongly favoring either option."
+  },
+  {
+    "sample_id": "SAMP_009",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response strongly advises Kiran to adopt a modest and humble approach, aligning with the restraint pole of the indulgence dimension."
+  },
+  {
+    "sample_id": "SAMP_010",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I3",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests considering both personal desires and family opinions, indicating a balanced stance between indulgence and restraint."
+  },
+  {
+    "sample_id": "SAMP_011",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response strongly advises spending on a pilgrimage and health checkups, emphasizing their importance for well-being over the luxury holiday."
+  },
+  {
+    "sample_id": "SAMP_012",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C4",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by considering both the woman's and her mother-in-law's perspectives before making a decision."
+  },
+  {
+    "sample_id": "SAMP_013",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by encouraging open communication and compromise between the couple's wishes and the father's traditional expectations."
+  },
+  {
+    "sample_id": "SAMP_014",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response advises Sai to change his mindset about wealth, use it modestly, and even consider donating it, aligning with a strong stance towards restraint."
+  },
+  {
+    "sample_id": "SAMP_015",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "en",
+    "region": "tamil",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response advises Selvam to address the issue privately with the panchayat president, indicating a preference for respecting authority and avoiding public confrontation."
+  },
+  {
+    "sample_id": "SAMP_016",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "en",
+    "region": "tamil",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response strongly supports contributing to the scholarship fund, emphasizing long-term impact and personal values over immediate community expectations."
+  },
+  {
+    "sample_id": "SAMP_017",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response suggests multiple steps to address the issue, including escalating to higher authorities, which indicates a willingness to challenge authority but not openly in front of the class."
+  },
+  {
+    "sample_id": "SAMP_018",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by combining both the luxury holiday and health checkups, indicating a neutral stance between indulgence and restraint."
+  },
+  {
+    "sample_id": "SAMP_019",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P3",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response suggests Mahesh should voice his concerns and question his father's decision, indicating a lower power distance stance."
+  },
+  {
+    "sample_id": "SAMP_020",
+    "model": "llama-3.1-nemotron-70b-instruct",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by considering both deferring to authority and taking action through private discussion or formal communication."
+  }
+]

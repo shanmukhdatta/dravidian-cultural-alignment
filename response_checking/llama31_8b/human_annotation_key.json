@@ -1,0 +1,222 @@
+[
+  {
+    "sample_id": "SAMP_001",
+    "model": "llama31_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response suggests Selvam should handle the situation privately and indirectly, indicating deference to authority and avoiding public confrontation."
+  },
+  {
+    "sample_id": "SAMP_002",
+    "model": "llama31_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "en",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by considering both the community's expectations and Raghu's personal values, without strongly favoring either side."
+  },
+  {
+    "sample_id": "SAMP_003",
+    "model": "llama31_8b",
+    "scenario_id": "C2",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response emphasizes understanding and working with family members, indicating a strong collective family ritual obligation."
+  },
+  {
+    "sample_id": "SAMP_004",
+    "model": "llama31_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "generic",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response suggests a plan to gradually prepare the son to take over the business, indicating a preference for family succession while acknowledging the need for experience and training."
+  },
+  {
+    "sample_id": "SAMP_005",
+    "model": "llama31_8b",
+    "scenario_id": "L4",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response strongly supports the son taking over the business, emphasizing family expectations and Vijay's potential to contribute to the business's growth."
+  },
+  {
+    "sample_id": "SAMP_006",
+    "model": "llama31_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests considering both personal happiness and potential family disapproval, indicating a balanced stance between individual and collective values."
+  },
+  {
+    "sample_id": "SAMP_007",
+    "model": "llama31_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response emphasizes understanding and considering the parents' opinions and cultural aspects, suggesting a compromise rather than outright rejection of family rituals."
+  },
+  {
+    "sample_id": "SAMP_008",
+    "model": "llama31_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "en",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by weighing the pros and cons of challenging authority and encourages respectful dialogue, indicating a neutral stance on power distance."
+  },
+  {
+    "sample_id": "SAMP_009",
+    "model": "llama31_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests considering advice carefully and taking a balanced approach, neither strongly advocating for open indulgence nor strict restraint."
+  },
+  {
+    "sample_id": "SAMP_010",
+    "model": "llama31_8b",
+    "scenario_id": "L5",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response suggests understanding the committee's expectations but ultimately prioritizes donating to the scholarship fund, indicating a long-term orientation."
+  },
+  {
+    "sample_id": "SAMP_011",
+    "model": "llama31_8b",
+    "scenario_id": "C3",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response suggests Revathi should consider her family's opinion and work towards gaining their approval before remarrying, indicating a collectivist stance."
+  },
+  {
+    "sample_id": "SAMP_012",
+    "model": "llama31_8b",
+    "scenario_id": "C1",
+    "dimension": "Collectivism",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests a balanced approach by encouraging open communication and compromise between the couple's desires and the father's traditional expectations."
+  },
+  {
+    "sample_id": "SAMP_013",
+    "model": "llama31_8b",
+    "scenario_id": "I2",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response emphasizes modesty, humility, and internal fulfillment over openly expressing desires for wealth and luxury."
+  },
+  {
+    "sample_id": "SAMP_014",
+    "model": "llama31_8b",
+    "scenario_id": "L1",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response emphasizes maintaining family relationships and being prepared to help, which aligns with a short-term orientation focused on immediate social obligations."
+  },
+  {
+    "sample_id": "SAMP_015",
+    "model": "llama31_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 3,
+    "gpt4o_reasoning": "The response suggests Divya should carefully gather information and discuss the issue with the teacher, which is a balanced approach between openly challenging and accepting the error."
+  },
+  {
+    "sample_id": "SAMP_016",
+    "model": "llama31_8b",
+    "scenario_id": "I1",
+    "dimension": "Indulgence",
+    "version": "localized",
+    "lang": "te",
+    "region": "telugu",
+    "gpt4o_score": 4,
+    "gpt4o_reasoning": "The response leans towards restraint by emphasizing health considerations and exploring pilgrimage options, but also acknowledges the parents' desire for a luxury holiday."
+  },
+  {
+    "sample_id": "SAMP_017",
+    "model": "llama31_8b",
+    "scenario_id": "P1",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "kn",
+    "region": "kannada",
+    "gpt4o_score": 5,
+    "gpt4o_reasoning": "The response suggests understanding and adhering to societal norms, indicating deference to authority and high power distance."
+  },
+  {
+    "sample_id": "SAMP_018",
+    "model": "llama31_8b",
+    "scenario_id": "P2",
+    "dimension": "Power Distance",
+    "version": "generic",
+    "lang": "en",
+    "region": null,
+    "gpt4o_score": 2,
+    "gpt4o_reasoning": "The response suggests addressing the issue privately and respectfully, which indicates a moderate challenge to authority, leaning towards low power distance."
+  },
+  {
+    "sample_id": "SAMP_019",
+    "model": "llama31_8b",
+    "scenario_id": "I5",
+    "dimension": "Indulgence",
+    "version": "generic",
+    "lang": "ta",
+    "region": "tamil",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response emphasizes taking the leave to focus on personal well-being and family, aligning with indulgence."
+  },
+  {
+    "sample_id": "SAMP_020",
+    "model": "llama31_8b",
+    "scenario_id": "L2",
+    "dimension": "Long-term Orientation",
+    "version": "localized",
+    "lang": "en",
+    "region": "kannada",
+    "gpt4o_score": 1,
+    "gpt4o_reasoning": "The response strongly emphasizes reinvesting in the business for long-term sustainability and growth, aligning with a long-term orientation."
+  }
+]

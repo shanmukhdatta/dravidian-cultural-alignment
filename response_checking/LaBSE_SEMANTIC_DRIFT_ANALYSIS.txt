@@ -1,0 +1,47 @@
+==================================================================
+ LaBSE SEMANTIC DRIFT BENCHMARK REPORT (data/embed_distances.json)
+==================================================================
+Embedding Model: sentence-transformers/LaBSE (109 languages, 768-dim)
+Total Evaluated Pairs: 570 (across all 6 Frontier Architectures)
+Formula: Drift = 1 - CosineSimilarity(Embedding_EN, Embedding_Native)
+
+1. Overall Semantic Drift Rankings across All 6 Models:
+Rank  Model                            Pairs (N)   Mean CosSim   Mean Drift (1-CosSim)   Std Dev (σ)   Status
+-----------------------------------------------------------------------------------------------------------------------------
+1     sarvam_m                         120 / 120   0.7347        0.2653                  0.0551        Benchmark Leader (Lowest Drift)
+2     gemma2_9b                         98 / 120   0.7281        0.2719                  0.0428        High Semantic Stability
+3     llama-3.1-nemotron-70b-instruct   48 / 120   0.6769        0.3231                  0.0580        Top-Tier 70B Semantic Preservation
+4     gemma3_12b                       118 / 120   0.6754        0.3246                  0.0524        Moderate Semantic Drift
+5     qwen3_8b                          92 / 120   0.6555        0.3445                  0.0593        Substantial Semantic Divergence
+6     llama31_8b                        94 / 120   0.6309        0.3691                  0.0831        Highest Semantic Drift
+
+2. Language Pair Semantic Drift (Mean Drift):
+Model                            EN -> TE         EN -> TA         EN -> KN         Vulnerability Hierarchy
+--------------------------------------------------------------------------------------------------------------
+sarvam_m                         0.2612 (n=40)    0.2545 (n=40)    0.2803 (n=40)    TA < TE < KN
+gemma2_9b                        0.2643 (n=33)    0.2672 (n=40)    0.2895 (n=25)    TE ≈ TA < KN
+llama-3.1-nemotron-70b-instruct  0.3112 (n=15)    0.3230 (n=20)    0.3369 (n=13)    TE < TA < KN (Strong Telugu Alignment)
+gemma3_12b                       0.3233 (n=40)    0.3237 (n=40)    0.3269 (n=38)    Uniform across languages
+qwen3_8b                         0.3356 (n=29)    0.3294 (n=30)    0.3659 (n=33)    TA < TE << KN
+llama31_8b                       0.3524 (n=28)    0.3692 (n=29)    0.3816 (n=37)    TE < TA < KN (Peak Drift)
+
+3. Hofstede Dimension Semantic Drift:
+Model                            Collectivism   Indulgence   Long-Term   Power Distance
+---------------------------------------------------------------------------------------
+sarvam_m                         0.2732         0.2593       0.2563      0.2725
+gemma2_9b                        0.2618         0.2881       0.2600      0.2758
+llama-3.1-nemotron-70b-instruct  0.3094         0.3321       0.3313      0.3232
+gemma3_12b                       0.3022         0.3398       0.3296      0.3252
+qwen3_8b                         0.3530         0.3398       0.3222      0.3591
+llama31_8b                       0.3402         0.4030       0.3534      0.3731
+
+4. Generic vs. Localized Scenario Drift (Hypothesis H3):
+Model                            Generic Drift   Localized Drift   Difference (Loc - Gen)
+-----------------------------------------------------------------------------------------
+sarvam_m                         0.2635          0.2671            +0.0035 (Balanced)
+gemma2_9b                        0.2774          0.2671            -0.0103
+llama-3.1-nemotron-70b-instruct  0.3332          0.3138            -0.0194 (Peak Semantic Stabilization)
+gemma3_12b                       0.3161          0.3334            +0.0173
+qwen3_8b                         0.3431          0.3458            +0.0027
+llama31_8b                       0.3723          0.3653            -0.0070
+==================================================================

@@ -1,0 +1,45 @@
+==================================================================
+ GPT-4o EVALUATION REPORT: Qwen-3-8B (data/judge_scores_qwen3_8b.json)
+==================================================================
+Total Records Scored     : 172
+Valid Stance Scores (1-5): 171 (99.4%)
+Refusals / Stance 0      : 1 (0.6%)
+
+Score Distribution (1-5 Scale):
+Score 1 (Strong Western)     : 50 (29.2%)
+Score 2 (Moderate Western)   : 31 (18.1%)
+Score 3 (Neutral/Compromise) : 53 (31.0%)
+Score 4 (Moderate S. Asian)  : 24 (14.0%)
+Score 5 (Strong S. Asian)    : 13 (7.6%)
+
+Mean Stance & Cultural Drift (Hypothesis H1):
+Language   Sample (N)   Mean Stance   Std Dev (σ)   Drift vs English (Δ)
+------------------------------------------------------------------------
+EN         80           2.663         1.031         Baseline
+TE         29           2.448         1.429         -0.214 (Leans Western)
+TA         29           2.483         1.430         -0.180 (Leans Western)
+KN         33           2.303         1.447         -0.360 (Strongest Western Shift)
+
+Dimension Breakdown:
+Dimension                 EN (N=20)   TE (N=6-9)   TA (N=6-8)   KN (N=7-10)
+---------------------------------------------------------------------------
+Power Distance (P)        2.750       3.125        2.250        2.000
+Collectivism (C)          2.600       1.667        3.125        2.429
+Indulgence/Restraint (I)  3.250       2.889        2.571        3.375
+Long-Term Orientation (L) 2.050       1.667        1.833        1.500
+
+Framing Effect (Hypothesis H3 - Generic vs Localized):
+Condition    Generic Dilemma   Localized Dilemma   Localization Shift (Δ)
+------------------------------------------------------------------------
+TE           2.333             2.571               +0.238 (Pulls toward S. Asian)
+KN           2.267             2.333               +0.066
+TA           2.857             2.133               -0.724
+EN           2.350             2.767               +0.417
+
+Cross-Model Benchmark (All 4 Completed Models):
+Model          Params   EN Baseline   TE      TA      KN      Max Drift   Drift Direction
+------------------------------------------------------------------------------------------
+Gemma-2-9B     9.2B     2.538         2.818   2.600   3.120   +0.583      South Asian
+Llama-3.1-8B   8.0B     2.788         3.321   3.138   2.838   +0.534      South Asian
+Gemma-3-12B    12.1B    2.625         2.675   2.700   2.842   +0.217      South Asian (Diplomatic)
+Qwen-3-8B      8.0B     2.663         2.448   2.483   2.303   -0.360      Western (Rule-of-Law)

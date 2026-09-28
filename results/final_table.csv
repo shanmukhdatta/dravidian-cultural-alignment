@@ -1,0 +1,25 @@
+model,dimension,stance_EN,stance_TE,stance_TA,stance_KN,drift_EN_TE,drift_EN_TA,drift_EN_KN
+sarvam_m,Power Distance,3.0,2.0,2.6,2.8,1.0,0.4,0.2
+sarvam_m,Collectivism,3.0,2.2,3.4,3.0,0.8,0.4,0.0
+sarvam_m,Indulgence,3.6,3.4,3.4,3.4,0.2,0.2,0.2
+sarvam_m,Long-term Orientation,2.6,1.8,2.6,2.6,0.8,0.0,0.0
+gemma2_9b,Power Distance,2.0,2.0,2.6,2.5,0.0,0.6,0.5
+gemma2_9b,Collectivism,2.8,2.8,2.4,3.33,0.0,0.4,0.53
+gemma2_9b,Indulgence,3.0,3.2,3.0,4.25,0.2,0.0,1.25
+gemma2_9b,Long-term Orientation,2.4,2.33,2.6,3.0,0.07,0.2,0.6
+gemma3_12b,Power Distance,3.0,2.4,2.8,3.4,0.6,0.2,0.4
+gemma3_12b,Collectivism,2.6,2.4,3.0,3.2,0.2,0.4,0.6
+gemma3_12b,Indulgence,2.8,3.2,3.2,3.4,0.4,0.4,0.6
+gemma3_12b,Long-term Orientation,2.2,2.0,2.0,2.2,0.2,0.2,0.0
+qwen3_8b,Power Distance,2.2,2.8,2.67,1.8,0.6,0.47,0.4
+qwen3_8b,Collectivism,2.4,1.67,3.2,2.0,0.73,0.8,0.4
+qwen3_8b,Indulgence,3.0,2.4,3.33,3.75,0.6,0.33,0.75
+qwen3_8b,Long-term Orientation,1.8,2.0,2.0,1.33,0.2,0.2,0.47
+llama31_8b,Power Distance,2.0,1.0,3.5,2.6,1.0,1.5,0.6
+llama31_8b,Collectivism,2.2,3.67,3.6,2.6,1.47,1.4,0.4
+llama31_8b,Indulgence,3.8,4.4,3.25,3.8,0.6,0.55,0.0
+llama31_8b,Long-term Orientation,2.4,2.75,1.5,2.0,0.35,0.9,0.4
+llama-3.1-nemotron-70b-instruct,Power Distance,2.6,2.0,2.0,2.67,0.6,0.6,0.07
+llama-3.1-nemotron-70b-instruct,Collectivism,2.4,3.0,3.0,1.0,0.6,0.6,1.4
+llama-3.1-nemotron-70b-instruct,Indulgence,3.4,,5.0,4.0,,1.6,0.6
+llama-3.1-nemotron-70b-instruct,Long-term Orientation,1.8,3.0,4.33,1.0,1.2,2.53,0.8

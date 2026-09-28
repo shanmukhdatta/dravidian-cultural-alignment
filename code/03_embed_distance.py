@@ -27,9 +27,14 @@ Filename bug fixed: reads ../results/checkpoints/raw_responses.json.
 
 Input:  ../results/checkpoints/raw_responses.json
 Output: ../data/embed_distances.json
+
+
 """
 
 import json
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(line_buffering=True, encoding="utf-8")
 import numpy as np
 from pathlib import Path
 from collections import defaultdict
