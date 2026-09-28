@@ -30,8 +30,14 @@ Usage:
 import argparse
 import json
 import statistics
+import sys
 from collections import defaultdict
 from pathlib import Path
+
+# Add code/ directory to sys.path
+CODE_DIR = Path(__file__).resolve().parent.parent
+if str(CODE_DIR) not in sys.path:
+    sys.path.insert(0, str(CODE_DIR))
 
 from script_fidelity_checker import check_fidelity
 
@@ -115,16 +121,17 @@ def summarize(lang, texts, default_threshold):
 
 
 def main():
+    repo_root = CODE_DIR.parent
+    default_raw = repo_root / "results" / "checkpoints" / "raw_responses.json"
+    default_bank = repo_root / "data" / "all_scenarios.json"
+
     ap = argparse.ArgumentParser()
-    ap.add_argument("--raw_responses_path", default=None,
-                     help="Path to raw_responses.json from 01_run_inference.py. "
-                          "If given and it exists, validates real generations.")
-    ap.add_argument("--bank_path", default="../data/all_scenarios.json",
-                     help="Fallback: scenario bank to use as text stand-ins "
-                          "when no generations are available yet.")
+    ap.add_argument("--raw_responses_path", default=str(default_raw) if default_raw.exists() else None,
+                     help="Path to raw_responses.json from 01_run_inference.py.")
+    ap.add_argument("--bank_path", default=str(default_bank) if default_bank.exists() else "../data/all_scenarios.json",
+                     help="Fallback: scenario bank to use as text stand-ins.")
     ap.add_argument("--threshold", type=float, default=0.70,
-                     help="Threshold to use when computing pass/fail (ratio "
-                          "reporting itself is threshold-independent).")
+                     help="Threshold to use when computing pass/fail.")
     args = ap.parse_args()
 
     used_real_generations = False
