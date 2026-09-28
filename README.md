@@ -11,7 +11,7 @@
 <p align="center">
   <b>Shanmukh Datta</b> &nbsp;&middot;&nbsp;
   <b>Kumar Prateek</b> &nbsp;&middot;&nbsp;
-  <b>Simranjit Singh</b> (Corresponding)
+  <b>Simranjit Singh</b>
 </p>
 
 <p align="center">
@@ -194,7 +194,7 @@ If you use this benchmark, code, or findings in your research, please cite our A
 ```bibtex
 @inproceedings{datta2027scale,
   title={The Scale Fallacy in Multilingual Alignment: Quantifying Cross-Lingual Cultural Value Drift Across Dravidian Languages},
-  author={Datta, Shanmukh and Prateek, Kumar and Singh, Simranjit},
+  author={Shanmukh Datta, and Prateek Kumar ,and  Simranjit Singh},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   year={2027}
 }
