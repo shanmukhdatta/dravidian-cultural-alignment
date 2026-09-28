@@ -68,8 +68,9 @@ This repository hosts the official benchmark, code, and datasets for our AAAI 20
 ├── README.md                                # Benchmark overview & reproduction guide
 ├── requirements.txt                         # Python dependencies
 ├── LICENSE                                  # MIT Open-Source License
-├── human_annotator_guidelines.md            # Guidelines provided to native human evaluators
-├── RESEARCH_METHODOLOGY_AND_THEORETICAL_FRAMEWORK.md # Theoretical sociological framing
+│
+├── docs/                                    # Documentation
+│   └── annotator_guidelines.md              # Guidelines provided to native human evaluators
 │
 ├── data/                                    # Benchmark Datasets
 │   ├── all_scenarios.json                   # 20 calibrated dilemmas (EN, TE, TA, KN)
@@ -168,7 +169,7 @@ python code/utils/token_budget_calibration.py
 ## Human Evaluation
 
 Human validation was conducted by native Dravidian speakers holding university degrees, compensated at \$25/hour:
-- **Annotation Guidelines:** Full instructions and rubrics are documented in [`human_annotator_guidelines.md`](human_annotator_guidelines.md).
+- **Annotation Guidelines:** Full instructions and rubrics are documented in [`docs/annotator_guidelines.md`](docs/annotator_guidelines.md).
 - **Agreement Metrics:** Compute quadratic-weighted Cohen's $\kappa_w$ and percentage agreements:
 ```bash
 python code/human_eval/compute_human_agreement.py

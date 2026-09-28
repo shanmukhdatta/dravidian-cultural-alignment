@@ -23,6 +23,8 @@ smoke_test_results/
 test_gpu.py
 smoke.pbs
 output_pipeline.log
+RESEARCH_METHODOLOGY_AND_THEORETICAL_FRAMEWORK.md
+paper_audit_and_novelty_report.md
 
 # OS & IDE
 .DS_Store
