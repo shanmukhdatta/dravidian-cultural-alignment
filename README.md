@@ -194,7 +194,7 @@ If you use this benchmark, code, or findings in your research, please cite our A
 ```bibtex
 @inproceedings{datta2027scale,
   title={The Scale Fallacy in Multilingual Alignment: Quantifying Cross-Lingual Cultural Value Drift Across Dravidian Languages},
-  author={Shanmukh Datta, and Prateek Kumar ,and  Simranjit Singh},
+  author={Shanmukh Datta and Kumar Prateek and Simranjit Singh},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   year={2027}
 }
