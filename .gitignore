@@ -15,6 +15,7 @@ venv/
 # Latex & Paper Submissions (Excluded from public code repo)
 AAAI_2027_latex/
 paper/
+AAL_Submission/
 *.zip
 *.tar.gz
 
