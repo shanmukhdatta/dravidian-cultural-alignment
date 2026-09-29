@@ -1,11 +1,11 @@
 """
-Prompt-by-Prompt NVIDIA NIM Inference Runner for Llama-3.2-11B-Vision-Instruct
+Prompt-by-Prompt NVIDIA NIM Inference Runner for Llama-3.1-Nemotron-70B-Instruct
 ================================================================================
 Free inference using NVIDIA NIM developer tier with multi-key auto-rotation.
 
 Features:
 1. Canonical 200-condition Dravidian scenario bank (EN, TE, TA, KN).
-2. Atomic checkpoint saving to results/checkpoints/checkpoint_llama32_11b.json
+2. Atomic checkpoint saving to results/checkpoints/checkpoint_llama-3.1-nemotron-70b-instruct.json
    immediately after EACH prompt.
 3. Multi-key failover: automatically rotates to the next key if credits run out.
 4. Script fidelity check (Telugu, Tamil, Kannada Unicode ranges) & loop detection.
@@ -37,16 +37,11 @@ SCENARIOS_PATH = REPO_ROOT / "data" / "all_scenarios.json"
 RESULTS_DIR = REPO_ROOT / "results" / "checkpoints"
 CHECKPOINT_PATH = RESULTS_DIR / "checkpoint_llama-3.1-nemotron-70b-instruct.json"
 
-MODEL_ID = "meta/llama-3.2-11b-vision-instruct"
+MODEL_ID = "nvidia/llama-3.1-nemotron-70b-instruct"
 MODEL_NAME = "llama-3.1-nemotron-70b-instruct"
 
 TOKENS_BY_LANG = {"en": 1200, "te": 2200, "ta": 2000, "kn": 1800}
 LOCALIZED_KEY = {"te": "telugu", "ta": "tamil", "kn": "kannada"}
-
-DEFAULT_KEYS = [
-    "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",
-    "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",
-]
 
 
 def log(msg, level="INFO"):
@@ -148,6 +143,10 @@ def is_quota_error(exc):
 def run_inference(api_keys, limit=None):
     if isinstance(api_keys, str):
         api_keys = [api_keys]
+
+    if not api_keys:
+        log("No NVIDIA NIM API key provided. Set the NVIDIA_API_KEY environment variable or pass --api_key", "ERR")
+        sys.exit(1)
 
     active_key_idx = 0
 
@@ -312,17 +311,19 @@ def run_inference(api_keys, limit=None):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--api_key", type=str, default=None)
-    parser.add_argument("--limit", type=int, default=None)
+    parser = argparse.ArgumentParser(description="NVIDIA NIM Prompt-by-Prompt Inference for Llama-3.1-Nemotron-70B-Instruct")
+    parser.add_argument("--api_key", type=str, default=None, help="NVIDIA API Key(s), comma-separated for rotation")
+    parser.add_argument("--limit", type=int, default=None, help="Limit number of prompts to run")
     args = parser.parse_args()
 
     keys = []
     if args.api_key:
-        keys.append(args.api_key)
+        keys = [k.strip() for k in args.api_key.split(",") if k.strip()]
     elif os.environ.get("NVIDIA_API_KEY"):
-        keys.append(os.environ["NVIDIA_API_KEY"])
-    else:
-        keys = DEFAULT_KEYS
+        keys = [k.strip() for k in os.environ["NVIDIA_API_KEY"].split(",") if k.strip()]
+
+    if not keys:
+        log("No API key provided! Please set the NVIDIA_API_KEY environment variable or pass --api_key <key>", "ERR")
+        sys.exit(1)
 
     run_inference(keys, limit=args.limit)
